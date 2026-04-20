@@ -1,0 +1,44 @@
+name: 3D Library Check
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Determine diff range
+        id: diff
+        run: |
+          if [[ "${{ github.event_name }}" == "pull_request" ]]; then
+            echo "base=${{ github.event.pull_request.base.sha }}" >> $GITHUB_OUTPUT
+            echo "head=${{ github.event.pull_request.head.sha }}" >> $GITHUB_OUTPUT
+          elif [[ "${{ github.event_name }}" == "push" ]]; then
+            echo "base=${{ github.event.before }}" >> $GITHUB_OUTPUT
+            echo "head=${{ github.sha }}" >> $GITHUB_OUTPUT
+          else
+            echo "base=" >> $GITHUB_OUTPUT
+            echo "head=" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Run validation
+        run: |
+          if [[ -n "${{ steps.diff.outputs.base }}" && -n "${{ steps.diff.outputs.head }}" ]]; then
+            python scripts/check_3d_library.py --base "${{ steps.diff.outputs.base }}" --head "${{ steps.diff.outputs.head }}"
+          else
+            python scripts/check_3d_library.py --full
+          fi
