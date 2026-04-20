@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chris Long 3D Prints</title>
+  <meta name="description" content="Clean product catalog for Chris Long's 3D printing designs." />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="hero__content container">
+      <p class="eyebrow">Chris Long • 3D Printing</p>
+      <h1>Simple catalog. Clean products. Less manual work.</h1>
+      <p class="hero__text">
+        This site is powered by the repo itself. Upload files to GitHub, let automation rebuild the catalog,
+        and the website updates from that data.
+      </p>
+      <div class="hero__actions">
+        <a class="button" href="#catalog">Browse catalog</a>
+        <a class="button button--ghost" href="https://github.com/chrislong369/3d-printing-designs" target="_blank" rel="noreferrer">View repo</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="stats container" aria-label="Catalog summary">
+      <article class="stat-card">
+        <span class="stat-card__label">Total files</span>
+        <strong id="stat-total">--</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-card__label">Categories</span>
+        <strong id="stat-categories">--</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-card__label">3MF files</span>
+        <strong id="stat-3mf">--</strong>
+      </article>
+      <article class="stat-card">
+        <span class="stat-card__label">STL files</span>
+        <strong id="stat-stl">--</strong>
+      </article>
+    </section>
+
+    <section class="controls container" id="catalog">
+      <div>
+        <p class="section-label">Catalog</p>
+        <h2>Filter what you actually need</h2>
+      </div>
+
+      <div class="toolbar">
+        <label class="field">
+          <span>Search</span>
+          <input id="search-input" type="search" placeholder="Search by file name or path" />
+        </label>
+
+        <label class="field">
+          <span>Category</span>
+          <select id="category-filter">
+            <option value="all">All</option>
+          </select>
+        </label>
+
+        <label class="field">
+          <span>File type</span>
+          <select id="extension-filter">
+            <option value="all">All</option>
+            <option value=".3mf">3MF</option>
+            <option value=".stl">STL</option>
+          </select>
+        </label>
+      </div>
+    </section>
+
+    <section class="catalog container">
+      <div class="catalog__meta">
+        <p id="results-count">Loading catalog...</p>
+      </div>
+      <div id="catalog-grid" class="catalog-grid"></div>
+      <div id="empty-state" class="empty-state hidden">
+        <h3>No files match that filter.</h3>
+        <p>Try a broader search or switch categories.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer container">
+    <p>Built from GitHub automation. Product metadata updates from the repo catalog.</p>
+  </footer>
+
+  <template id="card-template">
+    <article class="product-card">
+      <div class="product-card__top">
+        <span class="badge category-badge"></span>
+        <span class="badge type-badge"></span>
+      </div>
+      <h3 class="product-name"></h3>
+      <p class="product-path"></p>
+      <dl class="product-meta">
+        <div>
+          <dt>Size</dt>
+          <dd class="product-size"></dd>
+        </div>
+      </dl>
+    </article>
+  </template>
+
+  <script src="./app.js" defer></script>
+</body>
+</html>
