@@ -1,0 +1,765 @@
+[
+  {
+    "path": "Downloaded_Models/CR2032.3mf",
+    "name": "CR2032.3mf",
+    "category": "Downloaded_Models",
+    "extension": ".3mf",
+    "size_mb": 0.817
+  },
+  {
+    "path": "Downloaded_Models/Claymore_Mine.3mf",
+    "name": "Claymore_Mine.3mf",
+    "category": "Downloaded_Models",
+    "extension": ".3mf",
+    "size_mb": 1.345
+  },
+  {
+    "path": "Downloaded_Models/ConeStand.3mf",
+    "name": "ConeStand.3mf",
+    "category": "Downloaded_Models",
+    "extension": ".3mf",
+    "size_mb": 0.845
+  },
+  {
+    "path": "Downloaded_Models/Darrieus_V5.3mf",
+    "name": "Darrieus_V5.3mf",
+    "category": "Downloaded_Models",
+    "extension": ".3mf",
+    "size_mb": 2.632
+  },
+  {
+    "path": "Downloaded_Models/Glock_19__Business_Card_Holder.3mf",
+    "name": "Glock_19__Business_Card_Holder.3mf",
+    "category": "Downloaded_Models",
+    "extension": ".3mf",
+    "size_mb": 1.617
+  },
+  {
+    "path": "Downloaded_Models/Ovetto_Middle_Finger_Textured.3mf",
+    "name": "Ovetto_Middle_Finger_Textured.3mf",
+    "category": "Downloaded_Models",
+    "extension": ".3mf",
+    "size_mb": 4.634
+  },
+  {
+    "path": "Downloaded_Models/washing_bowl.3mf",
+    "name": "washing_bowl.3mf",
+    "category": "Downloaded_Models",
+    "extension": ".3mf",
+    "size_mb": 5.992
+  },
+  {
+    "path": "Final_Products/Boxes/Box 3x3x1 Open Bottom.3mf",
+    "name": "Box 3x3x1 Open Bottom.3mf",
+    "category": "Final_Products",
+    "extension": ".3mf",
+    "size_mb": 0.001
+  },
+  {
+    "path": "Final_Products/Boxes/Box 4.9x4.9x3 Open Bottom.3mf",
+    "name": "Box 4.9x4.9x3 Open Bottom.3mf",
+    "category": "Final_Products",
+    "extension": ".3mf",
+    "size_mb": 0.001
+  },
+  {
+    "path": "Final_Products/Boxes/Box 4x4x1 Open Bottom.3mf",
+    "name": "Box 4x4x1 Open Bottom.3mf",
+    "category": "Final_Products",
+    "extension": ".3mf",
+    "size_mb": 0.001
+  },
+  {
+    "path": "Final_Products/Boxes/Box 4x4x2 Open Bottom.3mf",
+    "name": "Box 4x4x2 Open Bottom.3mf",
+    "category": "Final_Products",
+    "extension": ".3mf",
+    "size_mb": 0.004
+  },
+  {
+    "path": "Final_Products/Boxes/Box 5.9x5.9x4 Open Bottom.3mf",
+    "name": "Box 5.9x5.9x4 Open Bottom.3mf",
+    "category": "Final_Products",
+    "extension": ".3mf",
+    "size_mb": 0.004
+  },
+  {
+    "path": "Final_Products/Boxes/Box 6.9x6.9x5 Open Bottom.3mf",
+    "name": "Box 6.9x6.9x5 Open Bottom.3mf",
+    "category": "Final_Products",
+    "extension": ".3mf",
+    "size_mb": 0.001
+  },
+  {
+    "path": "Final_Products/Boxes/Box 7.9x7.9x6 Open Bottom.stl",
+    "name": "Box 7.9x7.9x6 Open Bottom.stl",
+    "category": "Final_Products",
+    "extension": ".stl",
+    "size_mb": 0.007
+  },
+  {
+    "path": "Final_Products/Boxes/Box 8.8x8.8x6.5 Open Bottom.stl",
+    "name": "Box 8.8x8.8x6.5 Open Bottom.stl",
+    "category": "Final_Products",
+    "extension": ".stl",
+    "size_mb": 0.007
+  },
+  {
+    "path": "Final_Products/Boxes/Box 9.8x9.8x7 Open Bottom.stl",
+    "name": "Box 9.8x9.8x7 Open Bottom.stl",
+    "category": "Final_Products",
+    "extension": ".stl",
+    "size_mb": 0.007
+  },
+  {
+    "path": "Final_Products/Cosmetic_Organizers/Brow Liner Organizer.stl",
+    "name": "Brow Liner Organizer.stl",
+    "category": "Final_Products",
+    "extension": ".stl",
+    "size_mb": 0.844
+  },
+  {
+    "path": "Final_Products/Cosmetic_Organizers/Brow Pen Organizer.stl",
+    "name": "Brow Pen Organizer.stl",
+    "category": "Final_Products",
+    "extension": ".stl",
+    "size_mb": 16.911
+  },
+  {
+    "path": "Final_Products/Cosmetic_Organizers/Mascara Organizer.stl",
+    "name": "Mascara Organizer.stl",
+    "category": "Final_Products",
+    "extension": ".stl",
+    "size_mb": 0.199
+  },
+  {
+    "path": "In_Progress/Utility_Designs/LongWorks Studio 3D Text.stl",
+    "name": "LongWorks Studio 3D Text.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 1.035
+  },
+  {
+    "path": "In_Progress/Utility_Designs/LongWorks Studio Nameplate.stl",
+    "name": "LongWorks Studio Nameplate.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 38.365
+  },
+  {
+    "path": "In_Progress/Utility_Designs/LongWorks Studio Words Only.stl",
+    "name": "LongWorks Studio Words Only.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 26.175
+  },
+  {
+    "path": "In_Progress/Utility_Designs/LongWorks Studio Words Thicker.stl",
+    "name": "LongWorks Studio Words Thicker.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 81.656
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/brow_holders_both_8p5mm_one_plate.3mf",
+    "name": "brow_holders_both_8p5mm_one_plate.3mf",
+    "category": "In_Progress",
+    "extension": ".3mf",
+    "size_mb": 4.718
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/brow_liner_holder_cosmetic_rounded.stl",
+    "name": "brow_liner_holder_cosmetic_rounded.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.67
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/brow_liner_holder_retail_display.stl",
+    "name": "brow_liner_holder_retail_display.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.777
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/brow_liner_holder_retail_display_top_enclosed.stl",
+    "name": "brow_liner_holder_retail_display_top_enclosed.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.249
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/brow_liner_holder_tubes.stl",
+    "name": "brow_liner_holder_tubes.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.269
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/brow_pen_holder_11holes_7mm.stl",
+    "name": "brow_pen_holder_11holes_7mm.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 17.384
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/brow_pen_holder_7plus1_6p9mm.stl",
+    "name": "brow_pen_holder_7plus1_6p9mm.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 15.612
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/brow_pen_holder_7plus1_centered.stl",
+    "name": "brow_pen_holder_7plus1_centered.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 15.355
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/brow_pen_holder_7plus1_special.stl",
+    "name": "brow_pen_holder_7plus1_special.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 16.173
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/brow_pen_holder_block_style.stl",
+    "name": "brow_pen_holder_block_style.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.338
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/compartment_tray_4x5_35x32mm.stl",
+    "name": "compartment_tray_4x5_35x32mm.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.024
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/compartment_tray_4x5_35x32mm_light_bottom_tiles.stl",
+    "name": "compartment_tray_4x5_35x32mm_light_bottom_tiles.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.061
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/compartment_tray_4x5_35x32mm_strong_light.stl",
+    "name": "compartment_tray_4x5_35x32mm_strong_light.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.2
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/compartment_tray_4x5_35x32mm_vertical_back_gussets.stl",
+    "name": "compartment_tray_4x5_35x32mm_vertical_back_gussets.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.205
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/compartment_tray_5x5_35x32mm_vertical_stable.stl",
+    "name": "compartment_tray_5x5_35x32mm_vertical_stable.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.249
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/compartment_tray_5x5_modular_sockets.stl",
+    "name": "compartment_tray_5x5_modular_sockets.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.271
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/mascara_inventory_tray_5x4.stl",
+    "name": "mascara_inventory_tray_5x4.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.017
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/mascara_inventory_tray_bottom_tiles.stl",
+    "name": "mascara_inventory_tray_bottom_tiles.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.044
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/mascara_inventory_tray_production_honeycomb.stl",
+    "name": "mascara_inventory_tray_production_honeycomb.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 2.077
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/mascara_inventory_tray_production_ledgebottom.stl",
+    "name": "mascara_inventory_tray_production_ledgebottom.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.178
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/mascara_inventory_tray_ultrafast.stl",
+    "name": "mascara_inventory_tray_ultrafast.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.031
+  },
+  {
+    "path": "In_Progress/Cosmetic_Organizers/tray5x5_front_ribs_binary.stl",
+    "name": "tray5x5_front_ribs_binary.stl",
+    "category": "In_Progress",
+    "extension": ".stl",
+    "size_mb": 0.08
+  },
+  {
+    "path": "Needs_Review/3x3_-_8_compartmentgridfinity.3mf",
+    "name": "3x3_-_8_compartmentgridfinity.3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 1.432
+  },
+  {
+    "path": "Needs_Review/9a8dc546-296d-4deb-8c13-629d4b88b440.stl",
+    "name": "9a8dc546-296d-4deb-8c13-629d4b88b440.stl",
+    "category": "Needs_Review",
+    "extension": ".stl",
+    "size_mb": 11.531
+  },
+  {
+    "path": "Needs_Review/Clean-Dirty_Dishwasher_Sign.3mf",
+    "name": "Clean-Dirty_Dishwasher_Sign.3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 1.517
+  },
+  {
+    "path": "Needs_Review/Favorite_Filament_Sample_-_Custom_in_slicer(2).3mf",
+    "name": "Favorite_Filament_Sample_-_Custom_in_slicer(2).3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 2.418
+  },
+  {
+    "path": "Needs_Review/Favorite_Filament_Sample_-_Custom_in_slicer(3).3mf",
+    "name": "Favorite_Filament_Sample_-_Custom_in_slicer(3).3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 2.418
+  },
+  {
+    "path": "Needs_Review/Favorite_Filament_Sample_-_Custom_in_slicer.3mf",
+    "name": "Favorite_Filament_Sample_-_Custom_in_slicer.3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 2.459
+  },
+  {
+    "path": "Needs_Review/Favorite_Filament_Sample_-_PETG_+_Blank.3mf",
+    "name": "Favorite_Filament_Sample_-_PETG_+_Blank.3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 2.064
+  },
+  {
+    "path": "Needs_Review/Favorite_Filament_Sample_Holder_v7(2).3mf",
+    "name": "Favorite_Filament_Sample_Holder_v7(2).3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 0.939
+  },
+  {
+    "path": "Needs_Review/Favorite_Filament_Sample_Holder_v7.3mf",
+    "name": "Favorite_Filament_Sample_Holder_v7.3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 0.939
+  },
+  {
+    "path": "Needs_Review/Honeycomb_Bin.3mf",
+    "name": "Honeycomb_Bin.3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 0.491
+  },
+  {
+    "path": "Needs_Review/Insert_Press(2).3mf",
+    "name": "Insert_Press(2).3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 8.253
+  },
+  {
+    "path": "Needs_Review/Insert_Press(3).3mf",
+    "name": "Insert_Press(3).3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 8.253
+  },
+  {
+    "path": "Needs_Review/Insert_Press.3mf",
+    "name": "Insert_Press.3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 8.253
+  },
+  {
+    "path": "Needs_Review/Lefthandedboxcutter.3mf",
+    "name": "Lefthandedboxcutter.3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 2.118
+  },
+  {
+    "path": "Needs_Review/SINGLE_SPRING_SLIDE_G2,_1_COLOR,_1_PLATE_(P1,X1).3mf",
+    "name": "SINGLE_SPRING_SLIDE_G2,_1_COLOR,_1_PLATE_(P1,X1).3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 3.033
+  },
+  {
+    "path": "Needs_Review/SigPen.3mf",
+    "name": "SigPen.3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 2.37
+  },
+  {
+    "path": "Needs_Review/Skull_Wall_Mount_v6.3mf",
+    "name": "Skull_Wall_Mount_v6.3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 0.786
+  },
+  {
+    "path": "Needs_Review/Teabox_Stackable.3mf",
+    "name": "Teabox_Stackable.3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 1.553
+  },
+  {
+    "path": "Needs_Review/brow_liner_holder_box_rounded_fully_enclosed_topholes.stl",
+    "name": "brow_liner_holder_box_rounded_fully_enclosed_topholes.stl",
+    "category": "Needs_Review",
+    "extension": ".stl",
+    "size_mb": 0.192
+  },
+  {
+    "path": "Needs_Review/petg_pet_water_bowl.3mf",
+    "name": "petg_pet_water_bowl.3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 16.892
+  },
+  {
+    "path": "Needs_Review/winebarrel.3mf",
+    "name": "winebarrel.3mf",
+    "category": "Needs_Review",
+    "extension": ".3mf",
+    "size_mb": 13.53
+  },
+  {
+    "path": "Personal/2019 silverado_yeti_46oz_final.3mf",
+    "name": "2019 silverado_yeti_46oz_final.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 0.057
+  },
+  {
+    "path": "Personal/Belt Dust Cover_1.0.3mf",
+    "name": "Belt Dust Cover_1.0.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 1.69
+  },
+  {
+    "path": "Personal/FISHING_ROD_HOLDER__-_NO_BELT(2).3mf",
+    "name": "FISHING_ROD_HOLDER__-_NO_BELT(2).3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 2.261
+  },
+  {
+    "path": "Personal/FISHING_ROD_HOLDER__-_NO_BELT.3mf",
+    "name": "FISHING_ROD_HOLDER__-_NO_BELT.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 2.261
+  },
+  {
+    "path": "Personal/Gridfinity+Plain+Open Bins - A1 Mini.3mf",
+    "name": "Gridfinity+Plain+Open Bins - A1 Mini.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 0.649
+  },
+  {
+    "path": "Personal/GridfinityBoxes.3mf",
+    "name": "GridfinityBoxes.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 4.503
+  },
+  {
+    "path": "Personal/Gridfinity_3x3_-_3_long_compartments.3mf",
+    "name": "Gridfinity_3x3_-_3_long_compartments.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 1.333
+  },
+  {
+    "path": "Personal/Gridfinity_3x3x5U_center_split_2-1.3mf",
+    "name": "Gridfinity_3x3x5U_center_split_2-1.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 0.035
+  },
+  {
+    "path": "Personal/Gridfinity_3x3x5U_center_split_2-1_smooth.3mf",
+    "name": "Gridfinity_3x3x5U_center_split_2-1_smooth.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 0.036
+  },
+  {
+    "path": "Personal/Gridfinity_Bin_4x1to6_U6_w_Fingerslide_w_Magnets.3mf",
+    "name": "Gridfinity_Bin_4x1to6_U6_w_Fingerslide_w_Magnets.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 4.942
+  },
+  {
+    "path": "Personal/Gridfinity_Bins_Remix_Extra_Sizes.3mf",
+    "name": "Gridfinity_Bins_Remix_Extra_Sizes.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 1.997
+  },
+  {
+    "path": "Personal/Gridfinity_bin_4x1x5.3mf",
+    "name": "Gridfinity_bin_4x1x5.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 0.255
+  },
+  {
+    "path": "Personal/H\u00e6nger_milwaukee.3mf",
+    "name": "H\u00e6nger_milwaukee.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 1.369
+  },
+  {
+    "path": "Personal/Milwaukee_-_Tool___Battery_Mount_-_Project.3mf",
+    "name": "Milwaukee_-_Tool___Battery_Mount_-_Project.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 0.866
+  },
+  {
+    "path": "Personal/Milwaukee_motor_del_makerworld(2).3mf",
+    "name": "Milwaukee_motor_del_makerworld(2).3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 2.632
+  },
+  {
+    "path": "Personal/Milwaukee_motor_del_makerworld.3mf",
+    "name": "Milwaukee_motor_del_makerworld.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 2.632
+  },
+  {
+    "path": "Personal/P1S_Glass_Riser_Hole_Covers_Debossed_Letters_V2.3mf",
+    "name": "P1S_Glass_Riser_Hole_Covers_Debossed_Letters_V2.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 2.567
+  },
+  {
+    "path": "Personal/Poop_Bag_Dispenser_Set_3MF.3mf",
+    "name": "Poop_Bag_Dispenser_Set_3MF.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 5.346
+  },
+  {
+    "path": "Personal/Purge_strip_bin.3mf",
+    "name": "Purge_strip_bin.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 2.107
+  },
+  {
+    "path": "Personal/Rod_Holster.3mf",
+    "name": "Rod_Holster.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 2.938
+  },
+  {
+    "path": "Personal/Threaded_inserts_soldering_tips_set_gridfinity.3mf",
+    "name": "Threaded_inserts_soldering_tips_set_gridfinity.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 0.773
+  },
+  {
+    "path": "Personal/blower-mount-5.3mf",
+    "name": "blower-mount-5.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 2.841
+  },
+  {
+    "path": "Personal/gridfinity 6x3_fullhight_halfhight.3mf",
+    "name": "gridfinity 6x3_fullhight_halfhight.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 2.835
+  },
+  {
+    "path": "Personal/gridfinity_1x1-6x6x5.3mf",
+    "name": "gridfinity_1x1-6x6x5.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 36.634
+  },
+  {
+    "path": "Personal/gridfinity_half_bins_horizontal.3mf",
+    "name": "gridfinity_half_bins_horizontal.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 1.339
+  },
+  {
+    "path": "Personal/gridfinity_half_bins_vertical(2).3mf",
+    "name": "gridfinity_half_bins_vertical(2).3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 1.332
+  },
+  {
+    "path": "Personal/gridfinity_half_bins_vertical.3mf",
+    "name": "gridfinity_half_bins_vertical.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 1.332
+  },
+  {
+    "path": "Personal/milwaukee_holder_clean_flush_sides_shorter_8mm.stl",
+    "name": "milwaukee_holder_clean_flush_sides_shorter_8mm.stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 0.155
+  },
+  {
+    "path": "Personal/milwaukee_holder_flat_sides_shorter_8mm_v3 (1).stl",
+    "name": "milwaukee_holder_flat_sides_shorter_8mm_v3 (1).stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 0.054
+  },
+  {
+    "path": "Personal/milwaukee_holder_flat_sides_shorter_8mm_v3.stl",
+    "name": "milwaukee_holder_flat_sides_shorter_8mm_v3.stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 0.054
+  },
+  {
+    "path": "Personal/milwaukee_holder_mild_flush_sides.stl",
+    "name": "milwaukee_holder_mild_flush_sides.stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 0.041
+  },
+  {
+    "path": "Personal/petg_base_plate_cleaner.3mf",
+    "name": "petg_base_plate_cleaner.3mf",
+    "category": "Personal",
+    "extension": ".3mf",
+    "size_mb": 27.896
+  },
+  {
+    "path": "Personal/poop_bag_dispenser_extra_roll_right_side_v2.stl",
+    "name": "poop_bag_dispenser_extra_roll_right_side_v2.stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 6.172
+  },
+  {
+    "path": "Personal/poop_bag_dispenser_final_rebuild.stl",
+    "name": "poop_bag_dispenser_final_rebuild.stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 5.412
+  },
+  {
+    "path": "Personal/poop_bag_dispenser_v3_rebuilt.stl",
+    "name": "poop_bag_dispenser_v3_rebuilt.stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 0.001
+  },
+  {
+    "path": "Personal/poop_bag_dispenser_with_extra_roll_holder.stl",
+    "name": "poop_bag_dispenser_with_extra_roll_holder.stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 6.191
+  },
+  {
+    "path": "Personal/silverado_yeti_46oz_final_v1.stl",
+    "name": "silverado_yeti_46oz_final_v1.stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 0.11
+  },
+  {
+    "path": "Personal/silverado_yeti_46oz_final_v2_connected.stl",
+    "name": "silverado_yeti_46oz_final_v2_connected.stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 0.147
+  },
+  {
+    "path": "Personal/silverado_yeti_46oz_final_v3_stepwall_10275.stl",
+    "name": "silverado_yeti_46oz_final_v3_stepwall_10275.stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 0.147
+  },
+  {
+    "path": "Personal/silverado_yeti_46oz_final_v4_connected_step_10275.stl",
+    "name": "silverado_yeti_46oz_final_v4_connected_step_10275.stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 0.147
+  },
+  {
+    "path": "Personal/silverado_yeti_46oz_final_v5_tapered_base_695_to_78.stl",
+    "name": "silverado_yeti_46oz_final_v5_tapered_base_695_to_78.stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 0.147
+  },
+  {
+    "path": "Personal/test_puck_cupholder_78mm_OD_5mm_tall.stl",
+    "name": "test_puck_cupholder_78mm_OD_5mm_tall.stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 0.037
+  },
+  {
+    "path": "Personal/yeti_cup_holder_adapter.stl",
+    "name": "yeti_cup_holder_adapter.stl",
+    "category": "Personal",
+    "extension": ".stl",
+    "size_mb": 0.385
+  }
+]
