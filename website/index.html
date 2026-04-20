@@ -3,108 +3,278 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chris Long 3D Prints</title>
-  <meta name="description" content="Clean product catalog for Chris Long's 3D printing designs." />
+  <title>LongWorks Studio | Functional 3D Printed Products</title>
+  <meta name="description" content="Custom 3D printed products, organizers, garage accessories, and utility designs from LongWorks Studio." />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
-  <header class="hero">
-    <div class="hero__content container">
-      <p class="eyebrow">Chris Long • 3D Printing</p>
-      <h1>Simple catalog. Clean products. Less manual work.</h1>
-      <p class="hero__text">
-        This site is powered by the repo itself. Upload files to GitHub, let automation rebuild the catalog,
-        and the website updates from that data.
-      </p>
-      <div class="hero__actions">
-        <a class="button" href="#catalog">Browse catalog</a>
-        <a class="button button--ghost" href="https://github.com/chrislong369/3d-printing-designs" target="_blank" rel="noreferrer">View repo</a>
-      </div>
+  <div class="site-bg" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <a class="brandline" href="#">
+        <strong>LongWorks Studio</strong>
+        <span>Clean 3D printed products built for real use</span>
+      </a>
+
+      <nav class="topnav" aria-label="Primary navigation">
+        <a href="#catalog">Catalog</a>
+        <a href="#featured">Featured</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#contact">Order</a>
+      </nav>
     </div>
   </header>
 
   <main>
-    <section class="stats container" aria-label="Catalog summary">
+    <section class="hero-wrap">
+      <div class="container hero-shell">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">LongWorks Studio</span>
+            <h1>Useful prints. Cleaner setups. A site that finally feels legit.</h1>
+            <p class="hero-text">
+              Organizers, garage helpers, truck accessories, boxes, and practical designs built around real everyday problems.
+              This site is tied directly to the GitHub catalog, so your product library can keep growing without the site turning into a mess.
+            </p>
+
+            <div class="hero-actions">
+              <a class="btn btn-primary" href="#catalog">Browse products</a>
+              <a class="btn btn-secondary" href="#contact">Request a custom print</a>
+            </div>
+
+            <div class="trust-row">
+              <span class="trust-pill">Catalog-driven</span>
+              <span class="trust-pill">Built to scale</span>
+              <span class="trust-pill">Ready for future sales</span>
+            </div>
+          </div>
+
+          <aside class="hero-panel">
+            <div class="panel-card">
+              <span class="panel-kicker">What this site does</span>
+              <h2>Simple for customers. Easy for you to maintain.</h2>
+              <div class="panel-points">
+                <div class="panel-point">
+                  <strong>Find products fast</strong>
+                  <span>Search, filter, and browse by category instead of digging through file names.</span>
+                </div>
+                <div class="panel-point">
+                  <strong>Highlight your best work</strong>
+                  <span>Featured sections make your strongest products look intentional, not random.</span>
+                </div>
+                <div class="panel-point">
+                  <strong>Grow without rebuilding</strong>
+                  <span>Your GitHub catalog stays the backbone, so new files can flow into the site later.</span>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="container stats-grid" aria-label="Shop summary">
       <article class="stat-card">
-        <span class="stat-card__label">Total files</span>
+        <span class="stat-label">Products indexed</span>
         <strong id="stat-total">--</strong>
+        <p>Live count from your catalog data.</p>
       </article>
       <article class="stat-card">
-        <span class="stat-card__label">Categories</span>
+        <span class="stat-label">Collections</span>
         <strong id="stat-categories">--</strong>
+        <p>Grouped into cleaner customer-facing categories.</p>
       </article>
       <article class="stat-card">
-        <span class="stat-card__label">3MF files</span>
+        <span class="stat-label">3MF files</span>
         <strong id="stat-3mf">--</strong>
+        <p>Project-ready print files in your library.</p>
       </article>
       <article class="stat-card">
-        <span class="stat-card__label">STL files</span>
+        <span class="stat-label">STL files</span>
         <strong id="stat-stl">--</strong>
+        <p>Printable model files tracked in the repo.</p>
       </article>
     </section>
 
-    <section class="controls container" id="catalog">
-      <div>
-        <p class="section-label">Catalog</p>
-        <h2>Filter what you actually need</h2>
+    <section class="container section-block" id="featured">
+      <div class="section-head">
+        <div>
+          <span class="section-kicker">Featured categories</span>
+          <h2>Built around the kinds of products people actually understand</h2>
+        </div>
+        <p>
+          The site groups raw file data into cleaner categories so it feels more like a storefront and less like a folder browser.
+        </p>
       </div>
 
-      <div class="toolbar">
-        <label class="field">
-          <span>Search</span>
-          <input id="search-input" type="search" placeholder="Search by file name or path" />
-        </label>
+      <div class="feature-grid" id="feature-grid">
+        <article class="feature-card">
+          <div class="feature-visual feature-boxes"></div>
+          <div>
+            <span class="feature-tag">Boxes</span>
+            <h3>Clean storage and organization</h3>
+            <p>Simple box designs, utility storage, and stack-friendly products.</p>
+          </div>
+        </article>
 
-        <label class="field">
-          <span>Category</span>
-          <select id="category-filter">
-            <option value="all">All</option>
-          </select>
-        </label>
+        <article class="feature-card">
+          <div class="feature-visual feature-garage"></div>
+          <div>
+            <span class="feature-tag">Garage &amp; Utility</span>
+            <h3>Useful prints with real purpose</h3>
+            <p>Battery mounts, holders, brackets, and workshop-friendly helpers.</p>
+          </div>
+        </article>
 
-        <label class="field">
-          <span>File type</span>
-          <select id="extension-filter">
-            <option value="all">All</option>
-            <option value=".3mf">3MF</option>
-            <option value=".stl">STL</option>
-          </select>
-        </label>
+        <article class="feature-card">
+          <div class="feature-visual feature-truck"></div>
+          <div>
+            <span class="feature-tag">Truck &amp; Auto</span>
+            <h3>Vehicle-focused problem solving</h3>
+            <p>Cup holder solutions, fitment parts, and truck-specific accessories.</p>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-visual feature-beauty"></div>
+          <div>
+            <span class="feature-tag">Beauty &amp; Organizers</span>
+            <h3>Display-ready setups</h3>
+            <p>Organizers that look better on a counter and keep products under control.</p>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section class="catalog container">
-      <div class="catalog__meta">
-        <p id="results-count">Loading catalog...</p>
+    <section class="container section-block" id="catalog">
+      <div class="section-head catalog-head">
+        <div>
+          <span class="section-kicker">Catalog</span>
+          <h2>Browse the product library</h2>
+        </div>
+        <p id="results-count">Loading catalog…</p>
       </div>
-      <div id="catalog-grid" class="catalog-grid"></div>
+
+      <div class="toolbar-shell">
+        <div class="toolbar">
+          <label class="field">
+            <span>Search</span>
+            <input id="search-input" type="search" placeholder="Search by product name or path" />
+          </label>
+
+          <label class="field">
+            <span>Category</span>
+            <select id="category-filter">
+              <option value="all">All categories</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>File type</span>
+            <select id="extension-filter">
+              <option value="all">All file types</option>
+              <option value=".3mf">3MF</option>
+              <option value=".stl">STL</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span>Sort</span>
+            <select id="sort-filter">
+              <option value="name-asc">Name A–Z</option>
+              <option value="name-desc">Name Z–A</option>
+              <option value="size-desc">Largest first</option>
+              <option value="size-asc">Smallest first</option>
+            </select>
+          </label>
+        </div>
+      </div>
+
+      <div class="catalog-grid" id="catalog-grid"></div>
+
       <div id="empty-state" class="empty-state hidden">
-        <h3>No files match that filter.</h3>
-        <p>Try a broader search or switch categories.</p>
+        <h3>No products match that filter.</h3>
+        <p>Change your search or category and try again.</p>
+      </div>
+    </section>
+
+    <section class="container section-block split-block" id="how-it-works">
+      <div class="info-card">
+        <span class="section-kicker">Why this works</span>
+        <h2>Better structure now. Less pain later.</h2>
+        <p>
+          You wanted automation first. So this site is designed to look good without creating more manual cleanup for you every time you add products.
+        </p>
+
+        <div class="mini-stack">
+          <article class="mini-card">
+            <strong>GitHub is the backbone</strong>
+            <p>Your file catalog stays tied to the repo instead of living in a separate mess.</p>
+          </article>
+          <article class="mini-card">
+            <strong>Front end feels cleaner</strong>
+            <p>Customer-facing grouping hides raw file chaos behind a better storefront layout.</p>
+          </article>
+          <article class="mini-card">
+            <strong>Ready for the next step</strong>
+            <p>Etsy links, product images, custom domains, and marketplace pages can layer in later.</p>
+          </article>
+        </div>
+      </div>
+
+      <div class="showcase-grid">
+        <article class="showcase-item">
+          <div class="showcase-visual"></div>
+          <div>
+            <h3>Featured products up top</h3>
+            <p>Make your strongest items feel intentional instead of making visitors scan random files.</p>
+          </div>
+        </article>
+        <article class="showcase-item">
+          <div class="showcase-visual alt"></div>
+          <div>
+            <h3>Clean cards with better naming</h3>
+            <p>Display names are cleaned up so customers see a product, not a machine-oriented filename.</p>
+          </div>
+        </article>
+        <article class="showcase-item">
+          <div class="showcase-visual soft"></div>
+          <div>
+            <h3>Future image support</h3>
+            <p>The layout is ready for product photos whenever you start adding them.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section-block cta-block" id="contact">
+      <div class="cta-card">
+        <div class="cta-copy">
+          <span class="section-kicker">Next step</span>
+          <h2>Ready to turn this into a real storefront?</h2>
+          <p>
+            This version gives you a polished catalog foundation. The next move is adding product images, pricing, sales links, and a custom domain so it feels like a business instead of a project.
+          </p>
+        </div>
+
+        <div class="cta-actions">
+          <a class="btn btn-primary" href="mailto:hello@example.com">Add your email later</a>
+          <a class="btn btn-secondary" href="https://github.com/chrislong369/3d-printing-designs" target="_blank" rel="noreferrer">View GitHub repo</a>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer class="footer container">
-    <p>Built from GitHub automation. Product metadata updates from the repo catalog.</p>
-  </footer>
-
-  <template id="card-template">
-    <article class="product-card">
-      <div class="product-card__top">
-        <span class="badge category-badge"></span>
-        <span class="badge type-badge"></span>
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>LongWorks Studio</strong>
+        <p>Functional 3D printed products with a cleaner catalog and better structure behind the scenes.</p>
       </div>
-      <h3 class="product-name"></h3>
-      <p class="product-path"></p>
-      <dl class="product-meta">
-        <div>
-          <dt>Size</dt>
-          <dd class="product-size"></dd>
-        </div>
-      </dl>
-    </article>
-  </template>
+      <p class="footer-note">Powered by your GitHub catalog and built to get better from here.</p>
+    </div>
+  </footer>
 
   <script src="./app.js" defer></script>
 </body>
