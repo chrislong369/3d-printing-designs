@@ -1,5 +1,5 @@
 {
-  "repo_root": ".",
+  "repo_root": "../..",
   "excluded_directories": [".git", "node_modules"],
   "default_destination": "Archive/Misc",
   "rules": [
