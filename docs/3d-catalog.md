@@ -1,8 +1,9 @@
 # 3D Model Catalog
 
-Total models: 109
+Total models: 110
 
 ## By Category
+- 3D_DROP: 1
 - Downloaded_Models: 7
 - Final_Products: 12
 - In_Progress: 26
@@ -10,6 +11,11 @@ Total models: 109
 - Personal: 43
 
 ## Files
+
+- **MILWAUKEE BATTERY HOLDER.stl(1).stl**  
+  - Path: `3D_DROP/MILWAUKEE BATTERY HOLDER.stl(1).stl`  
+  - Category: 3D_DROP  
+  - Size: 0.131 MB  
 
 - **CR2032.3mf**  
   - Path: `Downloaded_Models/CR2032.3mf`  
