@@ -1,0 +1,28 @@
+name: Build Site Data
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-data:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Generate product JSON
+        run: python scripts/build_site_products.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add website/data/site-products.json
+          git commit -m "Auto-update site product data" || echo "No changes"
+          git push

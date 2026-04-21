@@ -1,64 +1,100 @@
 # 3D Printing Designs
 
-This repository stores Chris Long's 3D printing design files, with a focus on clean organization for Bambu Studio files, printable versions, and product-ready assets.
+This repo is structured to separate **private design work** from **public, sellable products** and automatically power a website.
 
-## Repository Purpose
+---
 
-This repo is organized to make it easier to:
-- identify the latest printable version of a design
-- separate sellable products from personal-use prints
-- preserve older iterations without confusing them with final files
-- review uncertain files before permanently categorizing them
+## Core System
 
-## Folder Structure
+### Private (default)
+All work goes here unless approved:
 
-### `Final_Products/`
-Use this folder for the latest approved version of a design intended for sale, sharing, or repeat printing.
+```
+library/private/
+```
 
-Examples:
-- `Box_6.9x6.9x5_v1.0.3mf`
-- `Grid_Base_6x6_v1.0.3mf`
-- `Mascara_Holder_Dual_v1.0.3mf`
+Includes:
+- In progress designs
+- Personal prints
+- Downloads
+- Experiments
+- Anything not ready for public
 
-### `In_Progress/`
-Use this folder for earlier versions, failed revisions, experiments, test fits, and files that were replaced by a newer working version.
+---
 
-Examples:
-- `Box_6.9x6.9x5_v0.8.3mf`
-- `Yeti_Holder_TestFit_v0.3.3mf`
+### Public (approved only)
+Only items you WANT on your site:
 
-### `Personal/`
-Use this folder for prints that are not intended as products for sale.
+```
+library/public/
+```
 
-Current known personal categories include:
-- Yeti cup holder files
-- Silverado-related files
-- train files
-- poop bag dispenser files
+Rule:
+> If it is not in public, it does not exist to the website.
 
-### `Needs_Review/`
-Use this folder for files that are unclear, duplicates that need human review, or items that cannot be confidently categorized yet.
+---
 
-## File Naming Rules
+## Website
 
-Use detailed names so the file purpose is obvious without opening it.
+```
+website/
+```
 
-### Standard format
-`ProductName_KeyDetails_vX.X.3mf`
+The site pulls from:
 
-### Examples
-- `Box_6.9x6.9x5_v1.0.3mf`
-- `Grid_Base_6x6_v1.0.3mf`
-- `Yeti_Holder_Silverado_v1.0.3mf`
-- `Battery_Mount_M18_Single_v1.0.3mf`
+```
+website/data/site-products.json
+```
 
-## Versioning Rules
+This file is AUTO-generated from:
 
-- The newest confirmed working version should live in `Final_Products/`
-- Older versions and known problem files should be moved to `In_Progress/`
-- If multiple similar files exist and the correct final version is uncertain, place them in `Needs_Review/`
-- Personal-use designs should live in `Personal/`
+```
+library/public/
+```
 
-## Notes
+---
 
-As additional files are uploaded, this repo will be normalized to match the structure above.
+## Automation
+
+On every push:
+
+1. Script scans `library/public/`
+2. Generates product list
+3. Updates website data
+4. Site deploys automatically
+
+---
+
+## How to Add a Product to the Site
+
+1. Move product into:
+```
+library/public/<Category>/<ProductFolder>/
+```
+
+2. Push changes
+
+Done. It will appear on the site.
+
+---
+
+## Important
+
+- Nothing is public by default
+- You control visibility by folder placement
+- No manual website updates needed
+
+---
+
+## Future Improvements
+
+- Product images
+- Pricing + Etsy links
+- Product descriptions
+- Filtering + categories
+
+---
+
+## Goal
+
+Keep everything clean, automated, and scalable while minimizing manual work.
