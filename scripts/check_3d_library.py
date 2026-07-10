@@ -13,27 +13,46 @@ ALLOWED_TOP_LEVEL_DIRS = {
     'Personal',
     'Downloaded_Models',
     'Needs_Review',
+    '3D_DROP',
     '.github',
+    '.agents',
     'scripts',
     'docs',
+    'tools',
+    'website',
+    'library',
+    'tasks',
+    'designs',
+    'exports',
+    'tests',
+    'archive',
+    'references',
 }
 
 ALLOWED_MODEL_EXTENSIONS = {'.stl', '.3mf'}
 ALLOWED_NON_MODEL_FILES = {
-    '.md', '.txt', '.py', '.yml', '.yaml', '.gitignore', '.gitattributes', '.csv', '.json'
+    '.md', '.txt', '.py', '.yml', '.yaml', '.gitignore', '.gitattributes', '.csv', '.json',
+    '.html', '.css', '.js', '.bat',
 }
 
 
 def run_git_diff(base: str, head: str) -> list[str]:
-    cmd = ['git', 'diff', '--name-only', '--diff-filter=ACMR', base, head]
-    result = subprocess.run(cmd, capture_output=True, text=True, check=True)
-    return [line.strip() for line in result.stdout.splitlines() if line.strip()]
+    cmd = ['git', 'diff', '--name-only', '-z', '--diff-filter=ACMR', base, head]
+    return run_git_paths(cmd)
 
 
 def all_tracked_files() -> list[str]:
-    cmd = ['git', 'ls-files']
-    result = subprocess.run(cmd, capture_output=True, text=True, check=True)
-    return [line.strip() for line in result.stdout.splitlines() if line.strip()]
+    return run_git_paths(['git', 'ls-files', '-z'])
+
+
+def run_git_paths(cmd: list[str]) -> list[str]:
+    """Read Git paths losslessly so quoted or Unicode filenames stay valid."""
+    result = subprocess.run(cmd, capture_output=True, check=True)
+    return [
+        item.decode('utf-8', errors='surrogateescape')
+        for item in result.stdout.split(b'\0')
+        if item
+    ]
 
 
 def has_bad_filename_style(path: Path) -> list[str]:
@@ -63,6 +82,12 @@ def validate_path(path_str: str) -> tuple[list[str], list[str]]:
         errors.append('empty path')
         return errors, warnings
 
+    if len(parts) == 1:
+        if path.name == '.gitkeep' or path.suffix.lower() in ALLOWED_NON_MODEL_FILES:
+            return errors, warnings
+        warnings.append(f'non-model file type {path.suffix or "<no extension>"!r} found at {path_str}')
+        return errors, warnings
+
     top_level = parts[0]
     if top_level not in ALLOWED_TOP_LEVEL_DIRS:
         errors.append(
@@ -77,7 +102,10 @@ def validate_path(path_str: str) -> tuple[list[str], list[str]]:
         warnings.extend(has_bad_filename_style(path))
         return errors, warnings
 
-    if top_level in {'.github', 'scripts', 'docs'} and suffix in ALLOWED_NON_MODEL_FILES:
+    if path.name == '.gitkeep':
+        return errors, warnings
+
+    if top_level in {'.github', '.agents', 'scripts', 'docs', 'tools', 'website'} and suffix in ALLOWED_NON_MODEL_FILES:
         return errors, warnings
 
     if suffix in ALLOWED_NON_MODEL_FILES:

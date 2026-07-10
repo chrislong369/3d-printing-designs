@@ -1,100 +1,64 @@
 # 3D Printing Designs
 
-This repo is structured to separate **private design work** from **public, sellable products** and automatically power a website.
+Chris Long's working repository for functional CAD, printable exports, fit tests, and product history. The standard is simple: solve the real-world problem with an editable, measurable, print-ready design.
 
----
+## Start a new CAD task
 
-## Core System
+1. Create `tasks/<task-id>-<product>.md` from `tasks/TEMPLATE.md` and fill in confirmed dimensions before modeling.
+2. In Codex, invoke the design workflow with a short request such as:
 
-### Private (default)
-All work goes here unless approved:
+   ```text
+   $functional-cad-design Create cad-042 truck cup insert from tasks/cad-042-truck-cup-insert.md.
+   ```
 
-```
-library/private/
-```
+3. Keep the task brief, editable source, exports, fit tests, references, and archived approved revisions in their assigned folders below.
 
-Includes:
-- In progress designs
-- Personal prints
-- Downloads
-- Experiments
-- Anything not ready for public
+Use millimeters. Mark unknown dimensions as estimated, do not silently guess, and preserve approved revisions.
 
----
+## Review an existing design
 
-### Public (approved only)
-Only items you WANT on your site:
+Use the review-only QA workflow when you want an assessment without a redesign:
 
-```
-library/public/
+```text
+$3d-print-design-qa Review exports/cad-042/cad-042_truck-cup-insert_print_r01.3mf. Do not modify files.
 ```
 
-Rule:
-> If it is not in public, it does not exist to the website.
+The result is **PASS**, **PASS WITH WARNINGS**, or **FAIL**, with evidence and specific risks.
 
----
+## Repository layout
 
-## Website
+| Path | Purpose |
+| --- | --- |
+| `.agents/skills/` | Reusable Codex design and QA workflows |
+| `tasks/` | Task briefs, measurements, constraints, and approvals |
+| `designs/` | Editable parametric/native CAD source and design notes |
+| `exports/` | Print-ready 3MF projects and derived STL exports |
+| `tests/` | Fit coupons, test sections, measured results, and print notes |
+| `archive/` | Preserved superseded approved revisions |
+| `references/` | Photos, sketches, specifications, and measurement references |
+| `Final_Products/`, `In_Progress/`, `Personal/`, `Downloaded_Models/`, `Needs_Review/`, `library/` | Existing legacy content; preserved in place until an explicitly approved migration |
+| `website/`, `docs/`, `scripts/`, `tools/` | Existing catalog, website, and automation support |
 
-```
-website/
-```
+No migration is included in this setup. If legacy files should move into the workflow folders, first make a separate, reviewed migration plan that updates all references.
 
-The site pulls from:
+## Naming and revisions
 
-```
-website/data/site-products.json
-```
+Use `<task-id>_<product>_<artifact>_rNN.<extension>` for new task files. Use lowercase kebab-case words inside the fields.
 
-This file is AUTO-generated from:
-
-```
-library/public/
-```
-
----
-
-## Automation
-
-On every push:
-
-1. Script scans `library/public/`
-2. Generates product list
-3. Updates website data
-4. Site deploys automatically
-
----
-
-## How to Add a Product to the Site
-
-1. Move product into:
-```
-library/public/<Category>/<ProductFolder>/
+```text
+cad-042_truck-cup-insert_source_r01.scad
+cad-042_truck-cup-insert_print_r01.3mf
+cad-042_truck-cup-insert_fit-coupon_r01.stl
 ```
 
-2. Push changes
+Increment `rNN` for every design revision. Before changing an approved revision, copy it to `archive/<product>/`; never overwrite it. An STL is an export, not the only deliverable when editable source is reasonably possible.
 
-Done. It will appear on the site.
+## Validation
 
----
+Run the repository check after structural changes or before a pull request:
 
-## Important
+```powershell
+python scripts/check_3d_library.py --full
+```
 
-- Nothing is public by default
-- You control visibility by folder placement
-- No manual website updates needed
-
----
-
-## Future Improvements
-
-- Product images
-- Pricing + Etsy links
-- Product descriptions
-- Filtering + categories
-
----
-
-## Goal
-
-Keep everything clean, automated, and scalable while minimizing manual work.
+`AGENTS.md` contains the permanent design, measurement, material, print-readiness, revision, and completion-report rules.
