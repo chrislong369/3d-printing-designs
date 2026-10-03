@@ -42,3 +42,8 @@ jobs:
           else
             python scripts/check_3d_library.py --full
           fi
+
+      - name: Full structure and safe-intake regression checks
+        run: |
+          python scripts/check_3d_library.py --full
+          python scripts/test_workspace.py

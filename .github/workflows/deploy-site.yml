@@ -5,7 +5,8 @@ on:
     branches: [main]
     paths:
       - 'website/**'
-      - 'docs/3d-catalog.json'
+      - 'Final_Products/**'
+      - 'scripts/build_site_products.py'
       - '.github/workflows/deploy-site.yml'
   workflow_dispatch:
 
@@ -28,11 +29,9 @@ jobs:
 
       - name: Prepare site
         run: |
+          python scripts/build_site_products.py
           mkdir build
           cp -r website/* build/
-          if [ -f docs/3d-catalog.json ]; then
-            cp docs/3d-catalog.json build/3d-catalog.json
-          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
@@ -43,4 +42,4 @@ jobs:
           path: build
 
       - name: Deploy
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

@@ -1,100 +1,45 @@
-# 3D Printing Designs
+# LongWorks 3D Printing Designs
 
-This repo is structured to separate **private design work** from **public, sellable products** and automatically power a website.
+This repository is the shared source of truth for LongWorks Studio 3D-printing work used by ChatGPT and Codex.
 
----
+## Working folders
 
-## Core System
+- `Final_Products/` — finished LongWorks designs that are ready to keep, print, or potentially publish/sell
+- `In_Progress/` — active LongWorks design work and iterations
+- `Personal/` — personal-use prints and customized models
+- `Downloaded_Models/` — downloaded/reference models that are not LongWorks originals
+- `Needs_Review/` — files that still need classification, cleanup, license review, or validation
+- `3D_DROP/` — temporary inbox for new files that have not been sorted yet
 
-### Private (default)
-All work goes here unless approved:
+## Codex / production context
 
-```
-library/private/
-```
+- `AGENTS.md`
+- `3D_PRINTING_CONTEXT.md`
+- `TOOLCHAIN_CATALOG.md`
+- `LONGWORKS_3D_SOURCE_OF_TRUTH.md`
+- `.codex/skills/3d-print-production/`
 
-Includes:
-- In progress designs
-- Personal prints
-- Downloads
-- Experiments
-- Anything not ready for public
-
----
-
-### Public (approved only)
-Only items you WANT on your site:
-
-```
-library/public/
-```
-
-Rule:
-> If it is not in public, it does not exist to the website.
-
----
+Codex should read these before substantial 3D work.
 
 ## Website
 
-```
-website/
-```
+The optional static website is generated from `Final_Products/`.
+Only finished products should appear there.
+The deployment workflow generates the public data directly before uploading `website/`;
+the internal full catalog is never copied to the site. The internal catalog workflow serves
+repository inventory only. See `docs/cleanup-review.md` for retained uncertain versions.
 
-The site pulls from:
+## Local setup
 
-```
-website/data/site-products.json
-```
+See `docs/toolchain-setup.md` for verified tools, prepared integrations and diagnostics.
+External tool sources, environments and generated diagnostics live outside this checkout,
+under `C:\Users\chris\Documents_Local\3D Printing\Tools`.
+`tools/file_organizer` is the sole maintained intake tool and defaults to preview.
+The obsolete filename-scoring cleanup scripts were removed; Git history preserves them.
 
-This file is AUTO-generated from:
+## Rules
 
-```
-library/public/
-```
-
----
-
-## Automation
-
-On every push:
-
-1. Script scans `library/public/`
-2. Generates product list
-3. Updates website data
-4. Site deploys automatically
-
----
-
-## How to Add a Product to the Site
-
-1. Move product into:
-```
-library/public/<Category>/<ProductFolder>/
-```
-
-2. Push changes
-
-Done. It will appear on the site.
-
----
-
-## Important
-
-- Nothing is public by default
-- You control visibility by folder placement
-- No manual website updates needed
-
----
-
-## Future Improvements
-
-- Product images
-- Pricing + Etsy links
-- Product descriptions
-- Filtering + categories
-
----
-
-## Goal
-
-Keep everything clean, automated, and scalable while minimizing manual work.
+- Keep downloaded third-party files separate from original LongWorks work.
+- Verify licenses before selling or redistributing third-party models.
+- Do not treat a concept image or placeholder mesh as a finished printable product.
+- Use GitHub as the canonical shared 3D workspace; local desktop copies should sync with `main`.

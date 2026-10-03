@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+bambu-output/
+.secrets.json
+*.log

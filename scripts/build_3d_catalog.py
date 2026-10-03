@@ -16,7 +16,9 @@ MODEL_EXTS = {'.stl', '.3mf'}
 
 
 def iter_model_files() -> list[Path]:
-    return [p for p in ROOT.rglob('*') if p.is_file() and p.suffix.lower() in MODEL_EXTS]
+    folders = ('Final_Products', 'In_Progress', 'Personal', 'Downloaded_Models', 'Needs_Review', '3D_DROP')
+    return [p for folder in folders for p in (ROOT / folder).rglob('*')
+            if p.is_file() and p.suffix.lower() in MODEL_EXTS]
 
 
 def build_records(paths: list[Path]) -> list[dict]:
@@ -27,7 +29,7 @@ def build_records(paths: list[Path]) -> list[dict]:
         category = parts[0] if parts else 'Unknown'
         size_mb = p.stat().st_size / (1024 * 1024)
         records.append({
-            'path': str(rel),
+            'path': rel.as_posix(),
             'name': p.name,
             'category': category,
             'extension': p.suffix.lower(),
@@ -39,7 +41,7 @@ def build_records(paths: list[Path]) -> list[dict]:
 def write_csv(records: list[dict]) -> None:
     CSV_PATH.parent.mkdir(parents=True, exist_ok=True)
     with CSV_PATH.open('w', newline='', encoding='utf-8') as f:
-        writer = csv.DictWriter(f, fieldnames=['path', 'name', 'category', 'extension', 'size_mb'])
+        writer = csv.DictWriter(f, fieldnames=['path', 'name', 'category', 'extension', 'size_mb'], lineterminator='\n')
         writer.writeheader()
         writer.writerows(records)
 
@@ -76,7 +78,7 @@ def write_markdown(records: list[dict]) -> None:
         lines.append('')
 
     MD_PATH.parent.mkdir(parents=True, exist_ok=True)
-    MD_PATH.write_text('\n'.join(lines), encoding='utf-8')
+    MD_PATH.write_text('\n'.join(line.rstrip() for line in lines).rstrip() + '\n', encoding='utf-8')
 
 
 def main() -> None:

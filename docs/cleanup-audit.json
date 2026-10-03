@@ -1,0 +1,1355 @@
+{
+  "baseline": "27d063a415abb2302339313a388c426f83ac2b3e",
+  "models": [
+    {
+      "path": "3D_DROP/MILWAUKEE BATTERY HOLDER.stl(1).stl",
+      "sha256": "92039e23eac489ee8def4c5a4f6763f9ed1df32acfaf828e518c186876a8decc",
+      "bytes": 137584,
+      "bounds_assuming_mm": [
+        [
+          400.3249816894531,
+          -193.66250610351562,
+          0.0
+        ],
+        [
+          470.0749816894531,
+          -168.02499389648438,
+          83.91888427734375
+        ]
+      ],
+      "watertight": true,
+      "triangles": 2750
+    },
+    {
+      "path": "Downloaded_Models/CR2032.3mf",
+      "sha256": "94151b2a869517f680263a1f9fe1bd36c931cc6c02e15605a5efb44d7736e21e",
+      "bytes": 857204,
+      "bad_zip_member": null,
+      "geometry_members": 2
+    },
+    {
+      "path": "Downloaded_Models/Claymore_Mine.3mf",
+      "sha256": "5fed8f200b9112d9f084e2a9afe2f6c528d79a5552df2f294c8fe35ebb3e1256",
+      "bytes": 1410315,
+      "bad_zip_member": null,
+      "geometry_members": 4
+    },
+    {
+      "path": "Downloaded_Models/ConeStand.3mf",
+      "sha256": "106a7103897db1a89225694e1524e4848d2dc69b7f7028e34c620325e891547d",
+      "bytes": 886187,
+      "bad_zip_member": null,
+      "geometry_members": 2
+    },
+    {
+      "path": "Downloaded_Models/Darrieus_V5.3mf",
+      "sha256": "42c408314a31b450fbf8c9ce5febce4a0e83a168ef03ea10b2e9980d8ce550c0",
+      "bytes": 2759890,
+      "bad_zip_member": null,
+      "geometry_members": 6
+    },
+    {
+      "path": "Downloaded_Models/Glock_19__Business_Card_Holder.3mf",
+      "sha256": "17c939fe85e450b4dc4c07bd3b6191127429c4bf26e432d37ccb5371b33b8e82",
+      "bytes": 1695349,
+      "bad_zip_member": null,
+      "geometry_members": 2
+    },
+    {
+      "path": "Downloaded_Models/Ovetto_Middle_Finger_Textured.3mf",
+      "sha256": "02a1fad7cc87e796d35d1a0ce4a9a4ec5392e2c3bc387d4aa336276749938207",
+      "bytes": 4859293,
+      "bad_zip_member": null,
+      "geometry_members": 5
+    },
+    {
+      "path": "Downloaded_Models/washing_bowl.3mf",
+      "sha256": "cad960e951b5fa28e596166a61d90179931bd4b1d65862d48f78280ed12003da",
+      "bytes": 6282808,
+      "bad_zip_member": null,
+      "geometry_members": 2
+    },
+    {
+      "path": "Final_Products/Boxes/Box 3x3x1 Open Bottom.3mf",
+      "sha256": "de13d804d6430962ee433d0e363077ef526e3c5d49b7f97daa188e57179a9fe1",
+      "bytes": 1351,
+      "bad_zip_member": null,
+      "geometry_members": 1
+    },
+    {
+      "path": "Final_Products/Boxes/Box 4.9x4.9x3 Open Bottom.3mf",
+      "sha256": "ebc527071b859e5d04805192d4885640c5adfaece395575860ffc09248d366c2",
+      "bytes": 1340,
+      "bad_zip_member": null,
+      "geometry_members": 1
+    },
+    {
+      "path": "Final_Products/Boxes/Box 4x4x1 Open Bottom.3mf",
+      "sha256": "bdeadec4bdc7fc21d630b8f7199179e1b8225ed039bfd612d7f0181377b51409",
+      "bytes": 1354,
+      "bad_zip_member": null,
+      "geometry_members": 1
+    },
+    {
+      "path": "Final_Products/Boxes/Box 4x4x2 Open Bottom.3mf",
+      "sha256": "724466bff7a24558fc9b6a192a64ab0619043cedb83a6eb3bdcd0affd507721c",
+      "bytes": 4319,
+      "bad_zip_member": null,
+      "geometry_members": 1
+    },
+    {
+      "path": "Final_Products/Boxes/Box 5.9x5.9x4 Open Bottom.3mf",
+      "sha256": "3a59c453a0082b5550225bc37996b9113185e583077c11d8da62a3a8f8378188",
+      "bytes": 3973,
+      "bad_zip_member": null,
+      "geometry_members": 1
+    },
+    {
+      "path": "Final_Products/Boxes/Box 6.9x6.9x5 Open Bottom.3mf",
+      "sha256": "002d464803abc822181af4a60c9425b331523e3b298f75ad985e54f17e50c98d",
+      "bytes": 1439,
+      "bad_zip_member": null,
+      "geometry_members": 1
+    },
+    {
+      "path": "Final_Products/Boxes/Box 7.9x7.9x6 Open Bottom.stl",
+      "sha256": "4344a22f7421ccd4e006425e7e2df99a8f4a099455611bbdb28399af2ca6d56b",
+      "bytes": 7189,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          200.66,
+          200.66,
+          152.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 28
+    },
+    {
+      "path": "Final_Products/Boxes/Box 8.8x8.8x6.5 Open Bottom.stl",
+      "sha256": "ab95a64a6e6c8bf7f12e862bf040b5ad8779777c2137ee781b641213f8ad48dd",
+      "bytes": 7273,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          223.52,
+          223.52,
+          165.1
+        ]
+      ],
+      "watertight": false,
+      "triangles": 28
+    },
+    {
+      "path": "Final_Products/Boxes/Box 9.8x9.8x7 Open Bottom.stl",
+      "sha256": "f02cc5f2b2d3a1280bc1be8ca5b8d0cedb6e8e02e2807ce0078099f1b34cdfb8",
+      "bytes": 7269,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          248.92,
+          248.92,
+          177.8
+        ]
+      ],
+      "watertight": false,
+      "triangles": 28
+    },
+    {
+      "path": "Final_Products/Cosmetic_Organizers/Brow Liner Organizer.stl",
+      "sha256": "40ae56dc999c3172db757c92183196065c7b8b67fbe84d03d2d1ab804a5e7da6",
+      "bytes": 921349,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          119.74,
+          53.8794,
+          25.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 5160
+    },
+    {
+      "path": "Final_Products/Cosmetic_Organizers/Brow Pen Organizer.stl",
+      "sha256": "49be8b76709107c5d68292b75c0541cfe0927e997a9c80821435218576fdffea",
+      "bytes": 17732084,
+      "bounds_assuming_mm": [
+        [
+          -5.551115123125783e-17,
+          -5.551115123125783e-17,
+          -5.551115123125783e-17
+        ],
+        [
+          106.4000015258789,
+          37.099998474121094,
+          25.549999237060547
+        ]
+      ],
+      "watertight": true,
+      "triangles": 354640
+    },
+    {
+      "path": "Final_Products/Cosmetic_Organizers/Mascara Organizer.stl",
+      "sha256": "791e484b79aed7048cbec25a5890c16ae2853ad77555f9ed5e9528d2f99d45e8",
+      "bytes": 217391,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          128.2,
+          102.8,
+          25.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 1224
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/brow_holders_both_8p5mm_one_plate.3mf",
+      "sha256": "d1d958f0aeacd16618a8ad5241f35db74a028c3a7c13d97b1e1768bef42d5410",
+      "bytes": 4946880,
+      "bad_zip_member": null,
+      "geometry_members": 1
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/brow_liner_holder_cosmetic_rounded.stl",
+      "sha256": "47748b439cad8919bb2fa2f088d9e1d960507df58190245dfa279fa6e9d149c6",
+      "bytes": 731457,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          119.14,
+          39.6934,
+          25.4
+        ]
+      ],
+      "watertight": true,
+      "triangles": 4108
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/brow_liner_holder_retail_display.stl",
+      "sha256": "f4c9ed10b92dfc47c7d1e4f033185fa8d8aaeb57dcbe6b7037e4ec4423eefa1e",
+      "bytes": 848529,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          119.74,
+          53.8794,
+          25.4
+        ]
+      ],
+      "watertight": true,
+      "triangles": 4752
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/brow_liner_holder_retail_display_top_enclosed.stl",
+      "sha256": "cab479fcad64a72a9cd38f1c9617a448dc885cbdb4451fd092f06dfd5487f8ce",
+      "bytes": 271153,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          104.74,
+          43.229400000000005,
+          27.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 1376
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/brow_liner_holder_tubes.stl",
+      "sha256": "05db15e2bbceb473b4b2235b907adc836d38a287636df75d0a37fc5d5c2b90df",
+      "bytes": 291907,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          80.14,
+          22.189999999999998,
+          25.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 1420
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/brow_pen_holder_11holes_7mm.stl",
+      "sha256": "9b36771ccf380147ac721e23a66752332af1ee70ae62cb24fe30684cdd5508d5",
+      "bytes": 18228884,
+      "bounds_assuming_mm": [
+        [
+          -5.551115123125783e-17,
+          -5.551115123125783e-17,
+          -5.551115123125783e-17
+        ],
+        [
+          108.1500015258789,
+          37.45000076293945,
+          25.549999237060547
+        ]
+      ],
+      "watertight": true,
+      "triangles": 364576
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/brow_pen_holder_7plus1_6p9mm.stl",
+      "sha256": "9781b0328eb55550843b5377b7d29d0170b8fd7569c261b7695980516f808924",
+      "bytes": 16370884,
+      "bounds_assuming_mm": [
+        [
+          -5.551115123125783e-17,
+          -5.551115123125783e-17,
+          -5.551115123125783e-17
+        ],
+        [
+          102.55000305175781,
+          37.45000076293945,
+          25.549999237060547
+        ]
+      ],
+      "watertight": true,
+      "triangles": 327416
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/brow_pen_holder_7plus1_centered.stl",
+      "sha256": "03727ac3056326f77897cd516da1f2caf5b24558b677f8452ca591474f3c6d7b",
+      "bytes": 16100684,
+      "bounds_assuming_mm": [
+        [
+          -5.551115123125783e-17,
+          -5.551115123125783e-17,
+          -5.551115123125783e-17
+        ],
+        [
+          101.8499984741211,
+          37.099998474121094,
+          25.549999237060547
+        ]
+      ],
+      "watertight": true,
+      "triangles": 322012
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/brow_pen_holder_7plus1_special.stl",
+      "sha256": "b42ea8faeeb5aa0fcc2bb873f34c5faff891d61361172955acbf272941a354a6",
+      "bytes": 16958884,
+      "bounds_assuming_mm": [
+        [
+          -5.551115123125783e-17,
+          -5.551115123125783e-17,
+          -5.551115123125783e-17
+        ],
+        [
+          110.25,
+          37.099998474121094,
+          25.549999237060547
+        ]
+      ],
+      "watertight": true,
+      "triangles": 339176
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/brow_pen_holder_block_style.stl",
+      "sha256": "60e6f213f8e83785823be1ffd5e6728d22c47569dbe55b6b888f2d2569d7844d",
+      "bytes": 367439,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          106.74,
+          37.2294,
+          25.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 1804
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/compartment_tray_4x5_35x32mm.stl",
+      "sha256": "59dd450d34a1a095b8eeb689c888f20e94f89fd4b989e1f736eb46cb8a2cf9e8",
+      "bytes": 25851,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          146.0,
+          167.2,
+          25.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 144
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/compartment_tray_4x5_35x32mm_light_bottom_tiles.stl",
+      "sha256": "d6bdb204e3f2205c896fb1b33806aa861c1dfb0f96856b91c09c35b46a817841",
+      "bytes": 66641,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          146.0,
+          167.2,
+          25.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 372
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/compartment_tray_4x5_35x32mm_strong_light.stl",
+      "sha256": "6d38b78f8c0962df71ccea064c81bae8d44739aaebe7046b2bf2a85e07217c09",
+      "bytes": 218711,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          146.0,
+          167.2,
+          25.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 1224
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/compartment_tray_4x5_35x32mm_vertical_back_gussets.stl",
+      "sha256": "02ba6e60bb76abcc6981d4a131feb29cc7931a0bb08ea2d3581b6223c75d09a8",
+      "bytes": 223803,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          146.0,
+          167.2,
+          80.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 1252
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/compartment_tray_5x5_35x32mm_vertical_stable.stl",
+      "sha256": "bde686888aeb63e3694cfa0db5ac30497e2b23c31f7fbf040c6e90e6ae5f0a84",
+      "bytes": 271821,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          184.6,
+          169.6,
+          95.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 1516
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/compartment_tray_5x5_modular_sockets.stl",
+      "sha256": "af9472396347e0f18dbabceb7d6ac34bfe8bf317500b4afc23da44afbc3f7fc7",
+      "bytes": 295351,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          184.6,
+          177.6,
+          95.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 1644
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/mascara_inventory_tray_5x4.stl",
+      "sha256": "152b7fc41cc852332de45031985ec9465227b338f11658fe39d151ed4cf8f86c",
+      "bytes": 18693,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          142.0,
+          114.0,
+          25.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 144
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/mascara_inventory_tray_bottom_tiles.stl",
+      "sha256": "e2eae92ddd755b155fbf05895ad4ff6af1b2a91557e3a9199aa8051b3858ed4d",
+      "bytes": 48347,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          137.2,
+          110.0,
+          25.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 372
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/mascara_inventory_tray_production_honeycomb.stl",
+      "sha256": "4a05a30a7437b0de2d48c75ee004167d7887cff508804735705b26e5b9ad5ef9",
+      "bytes": 2267259,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          127.0,
+          101.8,
+          25.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 12804
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/mascara_inventory_tray_production_ledgebottom.stl",
+      "sha256": "6f554d4d8fe698b22fc4162a5756d27399dda6b0297274f88ad5556553d5e0e4",
+      "bytes": 194005,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          127.0,
+          101.8,
+          25.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 1092
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/mascara_inventory_tray_ultrafast.stl",
+      "sha256": "1c078b94bcf86211b2eaee6bcc506104f5b9109eb7d0fcd3d8f6f6d7e3dd14fa",
+      "bytes": 33833,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          137.2,
+          110.0,
+          25.4
+        ]
+      ],
+      "watertight": false,
+      "triangles": 264
+    },
+    {
+      "path": "In_Progress/Cosmetic_Organizers/tray5x5_front_ribs_binary.stl",
+      "sha256": "8bc4d78161013d4ad44339fbf054bc41e707d2a2c011fa357d2590b7fcbf6c90",
+      "bytes": 83884,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          -22.0,
+          0.0
+        ],
+        [
+          184.60000610351562,
+          169.60000610351562,
+          95.4000015258789
+        ]
+      ],
+      "watertight": false,
+      "triangles": 1676
+    },
+    {
+      "path": "In_Progress/Utility_Designs/LongWorks Studio 3D Text.stl",
+      "sha256": "cec8c3b4f2aa5be3c7b45e84bd43fbf40e5f195e34b6fbdbb329d4bb295eba77",
+      "bytes": 1085684,
+      "bounds_assuming_mm": [
+        [
+          -387.3610534667969,
+          -20.17795181274414,
+          -25.5
+        ],
+        [
+          387.3610534667969,
+          73.4229736328125,
+          25.25
+        ]
+      ],
+      "watertight": true,
+      "triangles": 21712
+    },
+    {
+      "path": "In_Progress/Utility_Designs/LongWorks Studio Nameplate.stl",
+      "sha256": "101e5790d8ee6ddc2bc2e074bf1d3b32a532a5bc32e855a963ee9d93d4edcc90",
+      "bytes": 41544971,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.8333333134651184
+        ],
+        [
+          29.83333396911621,
+          89.83333587646484,
+          1.1666666269302368
+        ]
+      ],
+      "watertight": false,
+      "triangles": 188030
+    },
+    {
+      "path": "In_Progress/Utility_Designs/LongWorks Studio Words Only.stl",
+      "sha256": "c031ff6f5ee9d1f3a4088f8f646bac3a0d3de9748559724d0a2b704278c5bff3",
+      "bytes": 28572359,
+      "bounds_assuming_mm": [
+        [
+          7.5625,
+          3.9375,
+          0.0
+        ],
+        [
+          82.3125,
+          29.875,
+          1.875
+        ]
+      ],
+      "watertight": false,
+      "triangles": 160860
+    },
+    {
+      "path": "In_Progress/Utility_Designs/LongWorks Studio Words Thicker.stl",
+      "sha256": "183556737bbe6c7bf94e31111a5b70cc1cea00756e94110fee54f7499d4c48db",
+      "bytes": 88310081,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.1428571492433548
+        ],
+        [
+          34.85714340209961,
+          89.85713958740234,
+          2.142857074737549
+        ]
+      ],
+      "watertight": false,
+      "triangles": 383982
+    },
+    {
+      "path": "Needs_Review/3x3_-_8_compartmentgridfinity.3mf",
+      "sha256": "93640ece3693c0ba4509149f61b18288de727af46b3d88e51e33cacbb5cf1766",
+      "bytes": 1501494,
+      "bad_zip_member": null,
+      "geometry_members": 7
+    },
+    {
+      "path": "Needs_Review/9a8dc546-296d-4deb-8c13-629d4b88b440.stl",
+      "sha256": "3bf726350a331b9ce5a805fa5074e7af775b21f2adb0b634ebb9da8908633c1a",
+      "bytes": 12090884,
+      "bounds_assuming_mm": [
+        [
+          -27.776723861694336,
+          -42.881263732910156,
+          -105.5814208984375
+        ],
+        [
+          18.723276138305664,
+          133.1187286376953,
+          -4.869999885559082
+        ]
+      ],
+      "watertight": false,
+      "triangles": 241816
+    },
+    {
+      "path": "Needs_Review/Clean-Dirty_Dishwasher_Sign.3mf",
+      "sha256": "4f40aace0eca9c45eb4779652acf36e5651dc51a639d2a78fbc559783310398b",
+      "bytes": 1590455,
+      "bad_zip_member": null,
+      "geometry_members": 4
+    },
+    {
+      "path": "Needs_Review/Favorite_Filament_Sample_-_Custom_in_slicer(2).3mf",
+      "sha256": "4c8c2dbf0785533412091f8eab8c982e3417026759827a0fb38971bb77382b19",
+      "bytes": 2535589,
+      "bad_zip_member": null,
+      "geometry_members": 11
+    },
+    {
+      "path": "Needs_Review/Favorite_Filament_Sample_-_Custom_in_slicer.3mf",
+      "sha256": "55c34ba50d81a876133dc31baaf833f04ebf9748d590384800dac8b731a7dc2f",
+      "bytes": 2578079,
+      "bad_zip_member": null,
+      "geometry_members": 11
+    },
+    {
+      "path": "Needs_Review/Favorite_Filament_Sample_-_PETG_+_Blank.3mf",
+      "sha256": "932b38ba480b2a9fc2d05a666c32346901411a2fbb3e71da578da14d0532d309",
+      "bytes": 2163763,
+      "bad_zip_member": null,
+      "geometry_members": 11
+    },
+    {
+      "path": "Needs_Review/Favorite_Filament_Sample_Holder_v7.3mf",
+      "sha256": "b303f47c99d5f2dcd417e6845632898ab5752c6e24f6d0d37131cbb4b7ed2e3d",
+      "bytes": 984166,
+      "bad_zip_member": null,
+      "geometry_members": 13
+    },
+    {
+      "path": "Needs_Review/Honeycomb_Bin.3mf",
+      "sha256": "5e65bfcb5a97837034b099fe4a2d7062c0fcecc6dfb6fc484deb846eb1a7e600",
+      "bytes": 515213,
+      "bad_zip_member": null,
+      "geometry_members": 2
+    },
+    {
+      "path": "Needs_Review/Insert_Press.3mf",
+      "sha256": "1a86f8f43ebd1e4f27c165f48cc306dc8c1ffc00e16f8137eb9b86d9d99d1093",
+      "bytes": 8653770,
+      "bad_zip_member": null,
+      "geometry_members": 9
+    },
+    {
+      "path": "Needs_Review/Lefthandedboxcutter.3mf",
+      "sha256": "262d9b32522b926b985b130d7d470f434de338a2ec4b2d39ed647163ee02adea",
+      "bytes": 2221041,
+      "bad_zip_member": null,
+      "geometry_members": 3
+    },
+    {
+      "path": "Needs_Review/SINGLE_SPRING_SLIDE_G2,_1_COLOR,_1_PLATE_(P1,X1).3mf",
+      "sha256": "95faa2d68f5c52cb1edaf10afae78505d62ed1438bb201f960e5e41e9d74efac",
+      "bytes": 3180750,
+      "bad_zip_member": null,
+      "geometry_members": 17
+    },
+    {
+      "path": "Needs_Review/SigPen.3mf",
+      "sha256": "3c98d99407537bbab3c95844ca09bc1bb8ef0c54326d03d7e31f997a7954fb3c",
+      "bytes": 2485223,
+      "bad_zip_member": null,
+      "geometry_members": 9
+    },
+    {
+      "path": "Needs_Review/Skull_Wall_Mount_v6.3mf",
+      "sha256": "2737ef5418b9faba5c3a1dd675b96f3875360d8eb74cc175d928a370d821504e",
+      "bytes": 824200,
+      "bad_zip_member": null,
+      "geometry_members": 3
+    },
+    {
+      "path": "Needs_Review/Teabox_Stackable.3mf",
+      "sha256": "a93210fc95714c294bae88a5356116c26c650ea1134a537b515f7f56f8c3b1bb",
+      "bytes": 1627941,
+      "bad_zip_member": null,
+      "geometry_members": 2
+    },
+    {
+      "path": "Needs_Review/brow_liner_holder_box_rounded_fully_enclosed_topholes.stl",
+      "sha256": "076ba2cb58ee1d9dbe9c1d3f38a532ead3a11e703027c08a181241f58486ceed",
+      "bytes": 201084,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          104.73999786376953,
+          40.229400634765625,
+          25.399999618530273
+        ]
+      ],
+      "watertight": true,
+      "triangles": 4020
+    },
+    {
+      "path": "Needs_Review/petg_pet_water_bowl.3mf",
+      "sha256": "b8ce2e8f248f19952f8dcb3ecdad17cc5b88d12a1980faa824048ee3bf96db48",
+      "bytes": 17712343,
+      "bad_zip_member": null,
+      "geometry_members": 3
+    },
+    {
+      "path": "Needs_Review/winebarrel.3mf",
+      "sha256": "040f66d29306268579215622c120c73dc4c03420fd36dd2cb8f93cd84156021a",
+      "bytes": 14187489,
+      "bad_zip_member": null,
+      "geometry_members": 1
+    },
+    {
+      "path": "Personal/2019 silverado_yeti_46oz_final.3mf",
+      "sha256": "c7f4a1b813f864897c54ec4185df7d255e91165097e61569730412db5775e4a6",
+      "bytes": 59502,
+      "bad_zip_member": null,
+      "geometry_members": 2
+    },
+    {
+      "path": "Personal/Belt Dust Cover_1.0.3mf",
+      "sha256": "12528becd41d3ce3624826cbf01da63b77eb1d1f7598a40c5e1e03fff885ddfc",
+      "bytes": 1771707,
+      "bad_zip_member": null,
+      "geometry_members": 3
+    },
+    {
+      "path": "Personal/FISHING_ROD_HOLDER__-_NO_BELT.3mf",
+      "sha256": "98c127b052308dd0f8d9ad0a83a509308665eb5824d4dab4f328ce7701afb507",
+      "bytes": 2370597,
+      "bad_zip_member": null,
+      "geometry_members": 2
+    },
+    {
+      "path": "Personal/Gridfinity+Plain+Open Bins - A1 Mini.3mf",
+      "sha256": "48cde1c56096d54e0bed4f83dd9adb5d2aca390a420530dcd5c2348bbfcc37e9",
+      "bytes": 680037,
+      "bad_zip_member": null,
+      "geometry_members": 7
+    },
+    {
+      "path": "Personal/GridfinityBoxes.3mf",
+      "sha256": "c7d32963e478ca69b2b6a95a453b897e79d3be1473167721dc01d30deec7afeb",
+      "bytes": 4722225,
+      "bad_zip_member": null,
+      "geometry_members": 51
+    },
+    {
+      "path": "Personal/Gridfinity_3x3_-_3_long_compartments.3mf",
+      "sha256": "633402c62b75fcb2ba9de472683c9a4a8b07233eaab4ec5a8019ab40b1efdb26",
+      "bytes": 1398197,
+      "bad_zip_member": null,
+      "geometry_members": 7
+    },
+    {
+      "path": "Personal/Gridfinity_3x3x5U_center_split_2-1.3mf",
+      "sha256": "be3b696da9e4ae0b100de2ee4863654d9ab038b7a90a1108acbce71d645f132e",
+      "bytes": 36554,
+      "bad_zip_member": null,
+      "geometry_members": 1
+    },
+    {
+      "path": "Personal/Gridfinity_3x3x5U_center_split_2-1_smooth.3mf",
+      "sha256": "a54046911166f997b3ec668d4b1daa930aa4350db727bf9541f8dc753b0b4ff5",
+      "bytes": 38262,
+      "bad_zip_member": null,
+      "geometry_members": 1
+    },
+    {
+      "path": "Personal/Gridfinity_Bin_4x1to6_U6_w_Fingerslide_w_Magnets.3mf",
+      "sha256": "1e17fa8905aa23a306aedc798c7d3d2ae47d13184bbd325b68cf950499d0afac",
+      "bytes": 5182327,
+      "bad_zip_member": null,
+      "geometry_members": 7
+    },
+    {
+      "path": "Personal/Gridfinity_Bins_Remix_Extra_Sizes.3mf",
+      "sha256": "e8254f935ad53c12d1245530da21c311016ddf953fd8aa280e2c81356935faad",
+      "bytes": 2093781,
+      "bad_zip_member": null,
+      "geometry_members": 14
+    },
+    {
+      "path": "Personal/Gridfinity_bin_4x1x5.3mf",
+      "sha256": "ca1b6611a4836c37f14986f17ddd2b514e35166f55e9052c97bfc5067c4f2ac6",
+      "bytes": 267341,
+      "bad_zip_member": null,
+      "geometry_members": 2
+    },
+    {
+      "path": "Personal/H\u00e6nger_milwaukee.3mf",
+      "sha256": "3efe368a47d9cc500808b19ef82a00db8dce57a6cdb0cb1d135784baa44b620b",
+      "bytes": 1435730,
+      "bad_zip_member": null,
+      "geometry_members": 2
+    },
+    {
+      "path": "Personal/Milwaukee_-_Tool___Battery_Mount_-_Project.3mf",
+      "sha256": "db8a71aad003960c4acd0ce725c46c31ad2f779622ffbde27febdc44132079c8",
+      "bytes": 907619,
+      "bad_zip_member": null,
+      "geometry_members": 12
+    },
+    {
+      "path": "Personal/Milwaukee_motor_del_makerworld.3mf",
+      "sha256": "227bd48c1a9cf5011d833fa240a6c7e3a859915e4d3a96371ecb5c85f2e1ed1a",
+      "bytes": 2759700,
+      "bad_zip_member": null,
+      "geometry_members": 4
+    },
+    {
+      "path": "Personal/P1S_Glass_Riser_Hole_Covers_Debossed_Letters_V2.3mf",
+      "sha256": "31d682e1a1e8e097883a728f391e18c85a8e97c2d13b704e728a4354404e0cc1",
+      "bytes": 2691367,
+      "bad_zip_member": null,
+      "geometry_members": 9
+    },
+    {
+      "path": "Personal/Poop_Bag_Dispenser_Set_3MF.3mf",
+      "sha256": "2eac79340ab63370f89944fc7ca13fc1c4f1203704ecce2b27fec659895cc788",
+      "bytes": 5605229,
+      "bad_zip_member": null,
+      "geometry_members": 5
+    },
+    {
+      "path": "Personal/Purge_strip_bin.3mf",
+      "sha256": "f4cf5267a6c349b67285b29cb0af7fac835713875fef91b43a0c0ea56c0ac8fa",
+      "bytes": 2209447,
+      "bad_zip_member": null,
+      "geometry_members": 2
+    },
+    {
+      "path": "Personal/Rod_Holster.3mf",
+      "sha256": "a738ba26aed8742493a793395ada4081187bc65ace99a41cdc7db8c2af72082d",
+      "bytes": 3080364,
+      "bad_zip_member": null,
+      "geometry_members": 2
+    },
+    {
+      "path": "Personal/Threaded_inserts_soldering_tips_set_gridfinity.3mf",
+      "sha256": "384bf27f03a6911029676f700d61d0f7b6fa69233167fd5c9ca53f149e115268",
+      "bytes": 810169,
+      "bad_zip_member": null,
+      "geometry_members": 2
+    },
+    {
+      "path": "Personal/blower-mount-5.3mf",
+      "sha256": "173f1c10b04d8de3a1ad8ac13fe2c384bb86e6b231e0aba7acae0fc8e0f95e52",
+      "bytes": 2978964,
+      "bad_zip_member": null,
+      "geometry_members": 2
+    },
+    {
+      "path": "Personal/gridfinity 6x3_fullhight_halfhight.3mf",
+      "sha256": "ea3eda7501c0ff57d7f305dc68eadc37e36749691790a937530dc2d159808d52",
+      "bytes": 2973027,
+      "bad_zip_member": null,
+      "geometry_members": 3
+    },
+    {
+      "path": "Personal/gridfinity_1x1-6x6x5.3mf",
+      "sha256": "70e184f34bf6b8cc642c90966f43555a64ead3967c9ffed24a682ede8b3351d3",
+      "bytes": 38413968,
+      "bad_zip_member": null,
+      "geometry_members": 22
+    },
+    {
+      "path": "Personal/gridfinity_half_bins_horizontal.3mf",
+      "sha256": "bd1aec8ff1c181f04e3ab2edd68dd700c2a8a58ae3c60dc7d01028acfb2adf90",
+      "bytes": 1403978,
+      "bad_zip_member": null,
+      "geometry_members": 11
+    },
+    {
+      "path": "Personal/gridfinity_half_bins_vertical.3mf",
+      "sha256": "ae6d263417524d61945bab004885400d1de4ad32dd95a5f0e9903bc2a0e42e75",
+      "bytes": 1396327,
+      "bad_zip_member": null,
+      "geometry_members": 11
+    },
+    {
+      "path": "Personal/milwaukee_holder_clean_flush_sides_shorter_8mm.stl",
+      "sha256": "7da8c09568b6e3f58d51b1918963e6f7200226aee1eaf8b6ee0e222a323f847e",
+      "bytes": 162084,
+      "bounds_assuming_mm": [
+        [
+          400.3249816894531,
+          -155.22499084472656,
+          0.0
+        ],
+        [
+          470.0749816894531,
+          -131.1875,
+          75.73419189453125
+        ]
+      ],
+      "watertight": true,
+      "triangles": 3240
+    },
+    {
+      "path": "Personal/milwaukee_holder_flat_sides_shorter_8mm_v3.stl",
+      "sha256": "a51b58935f28f156904c82584f11ddab241789575d08a2593bf9f960a19dc0cf",
+      "bytes": 57084,
+      "bounds_assuming_mm": [
+        [
+          400.92498779296875,
+          -155.22499084472656,
+          0.0
+        ],
+        [
+          469.4749755859375,
+          -131.1875,
+          75.73419189453125
+        ]
+      ],
+      "watertight": true,
+      "triangles": 1140
+    },
+    {
+      "path": "Personal/milwaukee_holder_mild_flush_sides.stl",
+      "sha256": "2fe1159eb0c98cdee59ff85f196783ad1fbfd76d1327a344b4cbaefd3de66685",
+      "bytes": 42634,
+      "bounds_assuming_mm": [
+        [
+          -33.79999923706055,
+          -10.0,
+          -41.959442138671875
+        ],
+        [
+          33.79999923706055,
+          12.818748474121094,
+          41.959442138671875
+        ]
+      ],
+      "watertight": false,
+      "triangles": 851
+    },
+    {
+      "path": "Personal/petg_base_plate_cleaner.3mf",
+      "sha256": "31a47c6a23222a7fb7821d62fd0f5273e856e039043993ad26e9219b387fa719",
+      "bytes": 29250875,
+      "bad_zip_member": null,
+      "geometry_members": 5
+    },
+    {
+      "path": "Personal/poop_bag_dispenser_extra_roll_right_side_v2.stl",
+      "sha256": "f4fed7bece68bb933af6e155dc8e13a6ef4934da931fc876e45180f51587c335",
+      "bytes": 6471884,
+      "bounds_assuming_mm": [
+        [
+          364.1499938964844,
+          -219.6999969482422,
+          0.0
+        ],
+        [
+          470.4499816894531,
+          -138.6999969482422,
+          175.5
+        ]
+      ],
+      "watertight": true,
+      "triangles": 129436
+    },
+    {
+      "path": "Personal/poop_bag_dispenser_final_rebuild.stl",
+      "sha256": "df3334d371a47da5162dbf52988fe7832c932294cb69796a14442f75071e0be5",
+      "bytes": 5675184,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          106.29998779296875,
+          81.0,
+          175.5
+        ]
+      ],
+      "watertight": true,
+      "triangles": 113502
+    },
+    {
+      "path": "Personal/poop_bag_dispenser_v3_rebuilt.stl",
+      "sha256": "c79146e349ee6e9faeb507779a0426f645f517ee249cf65b556a42a40a7b3040",
+      "bytes": 1295,
+      "bounds_assuming_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          60.0,
+          40.0,
+          60.0
+        ]
+      ],
+      "watertight": true,
+      "triangles": 12
+    },
+    {
+      "path": "Personal/poop_bag_dispenser_with_extra_roll_holder.stl",
+      "sha256": "11295efa2fe212a830e7c53684eaaff5f36f15297668767e20859cc91244fe58",
+      "bytes": 6491684,
+      "bounds_assuming_mm": [
+        [
+          399.9499816894531,
+          -219.6999969482422,
+          0.0
+        ],
+        [
+          506.4499816894531,
+          -138.6999969482422,
+          175.5
+        ]
+      ],
+      "watertight": false,
+      "triangles": 129832
+    },
+    {
+      "path": "Personal/silverado_yeti_46oz_final_v1.stl",
+      "sha256": "a8ced86daee9d936781c031eef8f80fd058ebc0ced38eac3c1bd99a3f0c47df9",
+      "bytes": 115284,
+      "bounds_assuming_mm": [
+        [
+          -55.0,
+          -55.0,
+          0.0
+        ],
+        [
+          55.0,
+          55.0,
+          90.0
+        ]
+      ],
+      "watertight": true,
+      "triangles": 2304
+    },
+    {
+      "path": "Personal/silverado_yeti_46oz_final_v2_connected.stl",
+      "sha256": "9196e0b58453b888865201a2e2d40f72e28030f0b373f230f7c792ec5788664c",
+      "bytes": 153684,
+      "bounds_assuming_mm": [
+        [
+          -55.5,
+          -55.5,
+          0.0
+        ],
+        [
+          55.5,
+          55.5,
+          90.0
+        ]
+      ],
+      "watertight": true,
+      "triangles": 3072
+    },
+    {
+      "path": "Personal/silverado_yeti_46oz_final_v3_stepwall_10275.stl",
+      "sha256": "d1dbec42afa389c8725556e0fbd159b947117c9297b8f187ffa069c0a862b699",
+      "bytes": 153684,
+      "bounds_assuming_mm": [
+        [
+          -55.375,
+          -55.375,
+          0.0
+        ],
+        [
+          55.375,
+          55.375,
+          103.0
+        ]
+      ],
+      "watertight": true,
+      "triangles": 3072
+    },
+    {
+      "path": "Personal/silverado_yeti_46oz_final_v4_connected_step_10275.stl",
+      "sha256": "f5d912dc017ede7d5205670f9f385e2512a4c4a73cb0be8be9378c9904b7e1b3",
+      "bytes": 153684,
+      "bounds_assuming_mm": [
+        [
+          -55.375,
+          -55.375,
+          0.0
+        ],
+        [
+          55.375,
+          55.375,
+          103.0
+        ]
+      ],
+      "watertight": true,
+      "triangles": 3072
+    },
+    {
+      "path": "Personal/silverado_yeti_46oz_final_v5_tapered_base_695_to_78.stl",
+      "sha256": "066d94e602fcc946f9d4de8224be763d8093f7072cbf06ad22b252780e1b7399",
+      "bytes": 153684,
+      "bounds_assuming_mm": [
+        [
+          -55.375,
+          -55.375,
+          0.0
+        ],
+        [
+          55.375,
+          55.375,
+          103.0
+        ]
+      ],
+      "watertight": true,
+      "triangles": 3072
+    },
+    {
+      "path": "Personal/test_puck_cupholder_78mm_OD_5mm_tall.stl",
+      "sha256": "4f24b78204750b7ccb54da26e361caae29b5bc83c79841d85522d1553cd5a4fe",
+      "bytes": 38484,
+      "bounds_assuming_mm": [
+        [
+          -39.0,
+          -39.0,
+          0.0
+        ],
+        [
+          39.0,
+          39.0,
+          5.0
+        ]
+      ],
+      "watertight": true,
+      "triangles": 768
+    },
+    {
+      "path": "Personal/yeti_cup_holder_adapter.stl",
+      "sha256": "4425dd4a4e09e1a73557de1a94cbfce20f41e603cdd266433ea8808c90146613",
+      "bytes": 403284,
+      "bounds_assuming_mm": [
+        [
+          -51.5,
+          -51.5,
+          0.0
+        ],
+        [
+          51.5,
+          51.5,
+          65.0
+        ]
+      ],
+      "watertight": false,
+      "triangles": 8064
+    }
+  ],
+  "deletion_proof": [
+    {
+      "deleted": "Needs_Review/Favorite_Filament_Sample_-_Custom_in_slicer(3).3mf",
+      "sha256": "4c8c2dbf0785533412091f8eab8c982e3417026759827a0fb38971bb77382b19",
+      "retained_identical": [
+        "Needs_Review/Favorite_Filament_Sample_-_Custom_in_slicer(2).3mf"
+      ]
+    },
+    {
+      "deleted": "Needs_Review/Favorite_Filament_Sample_Holder_v7(2).3mf",
+      "sha256": "b303f47c99d5f2dcd417e6845632898ab5752c6e24f6d0d37131cbb4b7ed2e3d",
+      "retained_identical": [
+        "Needs_Review/Favorite_Filament_Sample_Holder_v7.3mf"
+      ]
+    },
+    {
+      "deleted": "Needs_Review/Insert_Press(2).3mf",
+      "sha256": "1a86f8f43ebd1e4f27c165f48cc306dc8c1ffc00e16f8137eb9b86d9d99d1093",
+      "retained_identical": [
+        "Needs_Review/Insert_Press.3mf"
+      ]
+    },
+    {
+      "deleted": "Needs_Review/Insert_Press(3).3mf",
+      "sha256": "1a86f8f43ebd1e4f27c165f48cc306dc8c1ffc00e16f8137eb9b86d9d99d1093",
+      "retained_identical": [
+        "Needs_Review/Insert_Press.3mf"
+      ]
+    },
+    {
+      "deleted": "Personal/FISHING_ROD_HOLDER__-_NO_BELT(2).3mf",
+      "sha256": "98c127b052308dd0f8d9ad0a83a509308665eb5824d4dab4f328ce7701afb507",
+      "retained_identical": [
+        "Personal/FISHING_ROD_HOLDER__-_NO_BELT.3mf"
+      ]
+    },
+    {
+      "deleted": "Personal/Milwaukee_motor_del_makerworld(2).3mf",
+      "sha256": "227bd48c1a9cf5011d833fa240a6c7e3a859915e4d3a96371ecb5c85f2e1ed1a",
+      "retained_identical": [
+        "Personal/Milwaukee_motor_del_makerworld.3mf"
+      ]
+    },
+    {
+      "deleted": "Personal/gridfinity_half_bins_vertical(2).3mf",
+      "sha256": "ae6d263417524d61945bab004885400d1de4ad32dd95a5f0e9903bc2a0e42e75",
+      "retained_identical": [
+        "Personal/gridfinity_half_bins_vertical.3mf"
+      ]
+    },
+    {
+      "deleted": "Personal/milwaukee_holder_flat_sides_shorter_8mm_v3 (1).stl",
+      "sha256": "a51b58935f28f156904c82584f11ddab241789575d08a2593bf9f960a19dc0cf",
+      "retained_identical": [
+        "Personal/milwaukee_holder_flat_sides_shorter_8mm_v3.stl"
+      ]
+    }
+  ],
+  "exact_duplicate_groups": [],
+  "same_3mf_geometry_review_groups": []
+}

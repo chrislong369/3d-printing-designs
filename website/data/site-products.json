@@ -1,1 +1,98 @@
-[]
+[
+  {
+    "name": "Box 3x3x1 Open Bottom",
+    "category": "Boxes",
+    "file": "Final_Products/Boxes/Box 3x3x1 Open Bottom.3mf",
+    "extension": ".3mf",
+    "size_mb": 0.001,
+    "image": ""
+  },
+  {
+    "name": "Box 4.9x4.9x3 Open Bottom",
+    "category": "Boxes",
+    "file": "Final_Products/Boxes/Box 4.9x4.9x3 Open Bottom.3mf",
+    "extension": ".3mf",
+    "size_mb": 0.001,
+    "image": ""
+  },
+  {
+    "name": "Box 4x4x1 Open Bottom",
+    "category": "Boxes",
+    "file": "Final_Products/Boxes/Box 4x4x1 Open Bottom.3mf",
+    "extension": ".3mf",
+    "size_mb": 0.001,
+    "image": ""
+  },
+  {
+    "name": "Box 4x4x2 Open Bottom",
+    "category": "Boxes",
+    "file": "Final_Products/Boxes/Box 4x4x2 Open Bottom.3mf",
+    "extension": ".3mf",
+    "size_mb": 0.004,
+    "image": ""
+  },
+  {
+    "name": "Box 5.9x5.9x4 Open Bottom",
+    "category": "Boxes",
+    "file": "Final_Products/Boxes/Box 5.9x5.9x4 Open Bottom.3mf",
+    "extension": ".3mf",
+    "size_mb": 0.004,
+    "image": ""
+  },
+  {
+    "name": "Box 6.9x6.9x5 Open Bottom",
+    "category": "Boxes",
+    "file": "Final_Products/Boxes/Box 6.9x6.9x5 Open Bottom.3mf",
+    "extension": ".3mf",
+    "size_mb": 0.001,
+    "image": ""
+  },
+  {
+    "name": "Box 7.9x7.9x6 Open Bottom",
+    "category": "Boxes",
+    "file": "Final_Products/Boxes/Box 7.9x7.9x6 Open Bottom.stl",
+    "extension": ".stl",
+    "size_mb": 0.007,
+    "image": ""
+  },
+  {
+    "name": "Box 8.8x8.8x6.5 Open Bottom",
+    "category": "Boxes",
+    "file": "Final_Products/Boxes/Box 8.8x8.8x6.5 Open Bottom.stl",
+    "extension": ".stl",
+    "size_mb": 0.007,
+    "image": ""
+  },
+  {
+    "name": "Box 9.8x9.8x7 Open Bottom",
+    "category": "Boxes",
+    "file": "Final_Products/Boxes/Box 9.8x9.8x7 Open Bottom.stl",
+    "extension": ".stl",
+    "size_mb": 0.007,
+    "image": ""
+  },
+  {
+    "name": "Brow Liner Organizer",
+    "category": "Cosmetic_Organizers",
+    "file": "Final_Products/Cosmetic_Organizers/Brow Liner Organizer.stl",
+    "extension": ".stl",
+    "size_mb": 0.879,
+    "image": ""
+  },
+  {
+    "name": "Brow Pen Organizer",
+    "category": "Cosmetic_Organizers",
+    "file": "Final_Products/Cosmetic_Organizers/Brow Pen Organizer.stl",
+    "extension": ".stl",
+    "size_mb": 16.911,
+    "image": ""
+  },
+  {
+    "name": "Mascara Organizer",
+    "category": "Cosmetic_Organizers",
+    "file": "Final_Products/Cosmetic_Organizers/Mascara Organizer.stl",
+    "extension": ".stl",
+    "size_mb": 0.207,
+    "image": ""
+  }
+]
