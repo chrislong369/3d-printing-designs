@@ -3,12 +3,25 @@ name: Build 3D Catalog
 on:
   push:
     branches: [main]
+    paths:
+      - 'Final_Products/**'
+      - 'In_Progress/**'
+      - 'Personal/**'
+      - 'Downloaded_Models/**'
+      - 'Needs_Review/**'
+      - '3D_DROP/**'
+      - 'scripts/build_3d_catalog.py'
+      - '.github/workflows/build-3d-catalog.yml'
   workflow_dispatch:
   schedule:
     - cron: '0 3 * * 1'
 
 permissions:
   contents: write
+
+concurrency:
+  group: internal-3d-catalog
+  cancel-in-progress: false
 
 jobs:
   build-catalog:

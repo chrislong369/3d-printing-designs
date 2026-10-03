@@ -100,4 +100,4 @@ Done requires:
 - Intermediate versions (v1, v2, v3, test, draft, old) should normally be deleted once a newer version is confirmed as the keeper.
 - Preserve an older version only when it contains a unique feature, geometry path, or recovery point that is still useful.
 - For commercial/product designs, keep the editable source for the final version plus the production export(s); do not keep every failed iteration by default.
-- When uncertain whether an older version is expendable, move it to `Needs_Review/` instead of deleting it automatically.
+- When uncertain whether an older version is expendable, leave it in place and add it to `docs/cleanup-review.md`; do not move linked assets or delete based on filenames alone.

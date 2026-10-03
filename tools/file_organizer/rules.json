@@ -1,28 +1,14 @@
 {
-  "repo_root": "../..",
-  "excluded_directories": [".git", "node_modules"],
-  "default_destination": "Archive/Misc",
-  "rules": [
-    {
-      "name": "Final STL Products",
-      "extensions": [".stl"],
-      "name_contains": ["final"],
-      "destination": "Products/STL/Final"
-    },
-    {
-      "name": "General STL",
-      "extensions": [".stl"],
-      "destination": "Products/STL/General"
-    },
-    {
-      "name": "3MF Print Profiles",
-      "extensions": [".3mf"],
-      "destination": "Products/3MF"
-    },
-    {
-      "name": "In Progress Files",
-      "name_contains": ["draft", "test", "v1", "old"],
-      "destination": "In_Progress"
-    }
+  "destination": "Needs_Review",
+  "extensions": [
+    ".stl",
+    ".3mf",
+    ".step",
+    ".stp",
+    ".blend",
+    ".fcstd",
+    ".obj",
+    ".glb",
+    ".scad"
   ]
 }

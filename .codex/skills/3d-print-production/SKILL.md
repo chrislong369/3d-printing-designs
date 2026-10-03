@@ -6,6 +6,10 @@ description: Route LongWorks Studio 3D-printing jobs through the best specialist
 # LongWorks 3D Production Skill
 
 Read `../../../3D_PRINTING_CONTEXT.md` and `../../../TOOLCHAIN_CATALOG.md`.
+These paths resolve from this skill directory. Read `../../../LONGWORKS_3D_SOURCE_OF_TRUTH.md`
+and `../../../docs/toolchain-setup.md` for canonical storage and the prepared local runtime.
+Run tools with the isolated LongWorks Python interpreter; do not assume the system Python
+has CAD/mesh packages. Do not install or configure paid generation providers during setup.
 
 ## Route the task
 - Existing tested object → search MakerWorld/Printables first when licensing/use allows
@@ -25,6 +29,12 @@ Read `../../../3D_PRINTING_CONTEXT.md` and `../../../TOOLCHAIN_CATALOG.md`.
 8. Only after visual match is acceptable: engineer print splits, colors, connectors and supports.
 9. Validate.
 10. Package into Bambu Studio.
+
+Inspect actual images at the blockout and final checkpoints. Capture comparable front, side
+and three-quarter views where reference fidelity matters. Fix the largest geometry mismatch
+before changing cameras or materials. If a preview cannot be inspected, report visual
+validation as incomplete. This strengthens the visual QA loop reviewed in the MIT-licensed
+`CheshireJCat/create-3d-model-skill` playbook; its installation is optional to the core route.
 
 ## Color strategy
 AMS is available. Choose AMS, no-AMS separate parts, hybrid, single color, or paint based on the job.

@@ -20,26 +20,25 @@ ALLOWED_TOP_LEVEL_DIRS = {
     'docs',
     'tools',
     'website',
-    'library',
 }
 
-ALLOWED_MODEL_EXTENSIONS = {'.stl', '.3mf'}
+ALLOWED_MODEL_EXTENSIONS = {'.stl', '.3mf', '.step', '.stp', '.blend', '.obj', '.glb', '.gltf', '.fcstd', '.scad'}
 ALLOWED_NON_MODEL_FILES = {
     '.md', '.txt', '.py', '.yml', '.yaml', '.gitignore', '.gitattributes', '.csv', '.json',
-    '.html', '.css', '.js'
+    '.html', '.css', '.js', '.bat', '.ps1', '.toml'
 }
 
 
 def run_git_diff(base: str, head: str) -> list[str]:
-    cmd = ['git', 'diff', '--name-only', '--diff-filter=ACMR', base, head]
-    result = subprocess.run(cmd, capture_output=True, text=True, check=True)
-    return [line.strip() for line in result.stdout.splitlines() if line.strip()]
+    cmd = ['git', 'diff', '--name-only', '-z', '--diff-filter=ACMR', base, head]
+    result = subprocess.run(cmd, capture_output=True, check=True)
+    return [name for name in result.stdout.decode('utf-8').split('\0') if name]
 
 
 def all_tracked_files() -> list[str]:
-    cmd = ['git', 'ls-files']
-    result = subprocess.run(cmd, capture_output=True, text=True, check=True)
-    return [line.strip() for line in result.stdout.splitlines() if line.strip()]
+    cmd = ['git', 'ls-files', '-z']
+    result = subprocess.run(cmd, capture_output=True, check=True)
+    return [name for name in result.stdout.decode('utf-8').split('\0') if name]
 
 
 def has_bad_filename_style(path: Path) -> list[str]:
@@ -70,6 +69,9 @@ def validate_path(path_str: str) -> tuple[list[str], list[str]]:
         return errors, warnings
 
     suffix = path.suffix.lower()
+
+    if path.name in {'.gitkeep', '.gitignore', '.gitattributes'}:
+        return errors, warnings
 
     # Root-level project/config/docs are valid. The structural restriction is for model assets,
     # not repository instructions such as AGENTS.md or toolchain/context files.

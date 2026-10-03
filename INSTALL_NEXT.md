@@ -1,5 +1,13 @@
 # Recommended Next Installation Plan
 
+## Current status — 2026-10-03
+
+The repository/toolchain preparation phase is complete. See `docs/toolchain-setup.md`
+for exact versions, paths, checks, prepared integration files and remaining warnings.
+The checklist below is historical context; do not reinstall components that now pass.
+Persistent Blender/FreeCAD GUI add-on activation and active Codex MCP configuration
+remain a separate approval step. No design or Pumpkin Reaper test has started.
+
 Give Codex this instruction from the LongWorks-3D workspace:
 
 1. Verify the existing LongWorks project context and local software.

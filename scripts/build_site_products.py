@@ -17,11 +17,14 @@ for root, dirs, files in os.walk(BASE):
                 'name': name,
                 'category': category,
                 'file': rel_path.replace('\\', '/'),
+                'extension': os.path.splitext(file)[1].lower(),
+                'size_mb': round(os.path.getsize(rel_path) / (1024 * 1024), 3),
                 'image': ''
             })
 
 products.sort(key=lambda p: (p['category'].lower(), p['name'].lower()))
 
+os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
 with open(OUTPUT, 'w', encoding='utf-8') as f:
     json.dump(products, f, indent=2)
 

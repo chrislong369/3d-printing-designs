@@ -25,6 +25,17 @@ Codex should read these before substantial 3D work.
 
 The optional static website is generated from `Final_Products/`.
 Only finished products should appear there.
+The deployment workflow generates the public data directly before uploading `website/`;
+the internal full catalog is never copied to the site. The internal catalog workflow serves
+repository inventory only. See `docs/cleanup-review.md` for retained uncertain versions.
+
+## Local setup
+
+See `docs/toolchain-setup.md` for verified tools, prepared integrations and diagnostics.
+External tool sources, environments and generated diagnostics live outside this checkout,
+under `C:\Users\chris\Documents_Local\3D Printing\Tools`.
+`tools/file_organizer` is the sole maintained intake tool and defaults to preview.
+The obsolete filename-scoring cleanup scripts were removed; Git history preserves them.
 
 ## Rules
 

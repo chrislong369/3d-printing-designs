@@ -1,35 +1,12 @@
-# File Organizer Tool
+# Model intake
 
-This tool helps automatically organize your 3D printing files into a clean folder structure.
+The maintained organizer previews immediate model files in a drop folder. It never deletes,
+never overwrites, never scans linked subfolders, and never infers final status from a filename.
+All incoming models go to Needs_Review for classification and license/geometry review.
+Paths resolve against this repository regardless of the shell's working directory.
 
-## What it does
-- Scans a folder you point it to
-- Sorts files based on rules (STL, 3MF, naming keywords, etc.)
-- Moves them into your repo structure
+Preview: python tools/file_organizer/organizer.py --source "C:/your/drop-folder"
 
-## Example Use
-
-Preview (safe):
-```
-python tools/file_organizer/organizer.py --source "C:/your/downloads" --dry-run
-```
-
-Run for real:
-```
-python tools/file_organizer/organizer.py --source "C:/your/downloads"
-```
-
-## How to Customize
-Edit `rules.json` to change:
-- where files go
-- what keywords trigger sorting
-- what extensions get moved
-
-## Typical Workflow
-1. Download or export files from Bambu Studio
-2. Drop them into a temp folder
-3. Run organizer
-4. Files get sorted into your repo automatically
-
-## Why this exists
-To eliminate manual file dragging and keep your 3D printing business clean and scalable.
+Apply reviewed moves: add --apply. --dry-run is also accepted and creates no directories.
+An identical existing destination is skipped; the source is preserved.
+Within this repository only 3D_DROP is accepted as an intake source.
