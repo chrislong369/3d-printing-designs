@@ -1,32 +1,28 @@
 import os
 import json
 
-BASE = 'library/public'
+BASE = 'Final_Products'
 OUTPUT = 'website/data/site-products.json'
 
 products = []
 
 for root, dirs, files in os.walk(BASE):
     for file in files:
-        if file.endswith('.stl') or file.endswith('.3mf'):
+        if file.lower().endswith(('.stl', '.3mf')):
             rel_path = os.path.join(root, file)
             parts = rel_path.split(os.sep)
-
-            try:
-                category = parts[2]
-            except:
-                category = 'Other'
-
+            category = parts[1] if len(parts) > 2 else 'Other'
             name = os.path.splitext(file)[0]
-
             products.append({
                 'name': name,
                 'category': category,
-                'file': rel_path.replace('\\','/'),
+                'file': rel_path.replace('\\', '/'),
                 'image': ''
             })
 
-with open(OUTPUT, 'w') as f:
+products.sort(key=lambda p: (p['category'].lower(), p['name'].lower()))
+
+with open(OUTPUT, 'w', encoding='utf-8') as f:
     json.dump(products, f, indent=2)
 
 print(f"Generated {len(products)} products")
