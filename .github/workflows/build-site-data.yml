@@ -3,6 +3,18 @@ name: Build Site Data
 on:
   push:
     branches: [main]
+    paths:
+      - 'Final_Products/**'
+      - 'In_Progress/**'
+      - 'Personal/**'
+      - 'Downloaded_Models/**'
+      - 'Needs_Review/**'
+      - 'scripts/build_site_products.py'
+      - '.github/workflows/build-site-data.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   build-data:
@@ -24,5 +36,9 @@ jobs:
           git config user.name "github-actions"
           git config user.email "actions@github.com"
           git add website/data/site-products.json
-          git commit -m "Auto-update site product data" || echo "No changes"
-          git push
+          if git diff --cached --quiet; then
+            echo "No site data changes"
+          else
+            git commit -m "Auto-update site product data"
+            git push
+          fi

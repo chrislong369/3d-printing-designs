@@ -13,14 +13,20 @@ ALLOWED_TOP_LEVEL_DIRS = {
     'Personal',
     'Downloaded_Models',
     'Needs_Review',
+    '3D_DROP',
     '.github',
+    '.codex',
     'scripts',
     'docs',
+    'tools',
+    'website',
+    'library',
 }
 
 ALLOWED_MODEL_EXTENSIONS = {'.stl', '.3mf'}
 ALLOWED_NON_MODEL_FILES = {
-    '.md', '.txt', '.py', '.yml', '.yaml', '.gitignore', '.gitattributes', '.csv', '.json'
+    '.md', '.txt', '.py', '.yml', '.yaml', '.gitignore', '.gitattributes', '.csv', '.json',
+    '.html', '.css', '.js'
 }
 
 
@@ -63,21 +69,25 @@ def validate_path(path_str: str) -> tuple[list[str], list[str]]:
         errors.append('empty path')
         return errors, warnings
 
+    suffix = path.suffix.lower()
+
+    # Root-level project/config/docs are valid. The structural restriction is for model assets,
+    # not repository instructions such as AGENTS.md or toolchain/context files.
+    if len(parts) == 1 and suffix in ALLOWED_NON_MODEL_FILES:
+        return errors, warnings
+
     top_level = parts[0]
     if top_level not in ALLOWED_TOP_LEVEL_DIRS:
         errors.append(
-            f'top-level folder {top_level!r} is not allowed; use one of: {", ".join(sorted(ALLOWED_TOP_LEVEL_DIRS - {".github", "scripts", "docs"}))}'
+            f'top-level folder {top_level!r} is not allowed; use one of: '
+            f'{", ".join(sorted(ALLOWED_TOP_LEVEL_DIRS - {".github", ".codex", "scripts", "docs", "tools", "website", "library"}))}'
         )
         return errors, warnings
 
-    suffix = path.suffix.lower()
     if suffix in ALLOWED_MODEL_EXTENSIONS:
         if len(parts) < 2:
             warnings.append('model file is at repo root of its top-level folder; consider a product subfolder if this grows')
         warnings.extend(has_bad_filename_style(path))
-        return errors, warnings
-
-    if top_level in {'.github', 'scripts', 'docs'} and suffix in ALLOWED_NON_MODEL_FILES:
         return errors, warnings
 
     if suffix in ALLOWED_NON_MODEL_FILES:
@@ -114,10 +124,7 @@ def main() -> int:
 
     print(f'Running {mode}')
 
-    model_files = [
-        f for f in files
-        if Path(f).suffix.lower() in ALLOWED_MODEL_EXTENSIONS
-    ]
+    model_files = [f for f in files if Path(f).suffix.lower() in ALLOWED_MODEL_EXTENSIONS]
 
     errors: list[str] = []
     warnings: list[str] = []
