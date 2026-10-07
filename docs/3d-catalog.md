@@ -100,7 +100,7 @@ Total models: 102
 - **Brow Liner Organizer.stl**
   - Path: `Final_Products/Cosmetic_Organizers/Brow Liner Organizer.stl`
   - Category: Final_Products
-  - Size: 0.879 MB
+  - Size: 0.844 MB
 
 - **Brow Pen Organizer.stl**
   - Path: `Final_Products/Cosmetic_Organizers/Brow Pen Organizer.stl`
@@ -110,7 +110,7 @@ Total models: 102
 - **Mascara Organizer.stl**
   - Path: `Final_Products/Cosmetic_Organizers/Mascara Organizer.stl`
   - Category: Final_Products
-  - Size: 0.207 MB
+  - Size: 0.199 MB
 
 - **LongWorks Studio 3D Text.stl**
   - Path: `In_Progress/Utility_Designs/LongWorks Studio 3D Text.stl`
@@ -120,17 +120,17 @@ Total models: 102
 - **LongWorks Studio Nameplate.stl**
   - Path: `In_Progress/Utility_Designs/LongWorks Studio Nameplate.stl`
   - Category: In_Progress
-  - Size: 39.62 MB
+  - Size: 38.365 MB
 
 - **LongWorks Studio Words Only.stl**
   - Path: `In_Progress/Utility_Designs/LongWorks Studio Words Only.stl`
   - Category: In_Progress
-  - Size: 27.249 MB
+  - Size: 26.175 MB
 
 - **LongWorks Studio Words Thicker.stl**
   - Path: `In_Progress/Utility_Designs/LongWorks Studio Words Thicker.stl`
   - Category: In_Progress
-  - Size: 84.219 MB
+  - Size: 81.656 MB
 
 - **brow_holders_both_8p5mm_one_plate.3mf**
   - Path: `In_Progress/Cosmetic_Organizers/brow_holders_both_8p5mm_one_plate.3mf`
@@ -140,22 +140,22 @@ Total models: 102
 - **brow_liner_holder_cosmetic_rounded.stl**
   - Path: `In_Progress/Cosmetic_Organizers/brow_liner_holder_cosmetic_rounded.stl`
   - Category: In_Progress
-  - Size: 0.698 MB
+  - Size: 0.67 MB
 
 - **brow_liner_holder_retail_display.stl**
   - Path: `In_Progress/Cosmetic_Organizers/brow_liner_holder_retail_display.stl`
   - Category: In_Progress
-  - Size: 0.809 MB
+  - Size: 0.777 MB
 
 - **brow_liner_holder_retail_display_top_enclosed.stl**
   - Path: `In_Progress/Cosmetic_Organizers/brow_liner_holder_retail_display_top_enclosed.stl`
   - Category: In_Progress
-  - Size: 0.259 MB
+  - Size: 0.249 MB
 
 - **brow_liner_holder_tubes.stl**
   - Path: `In_Progress/Cosmetic_Organizers/brow_liner_holder_tubes.stl`
   - Category: In_Progress
-  - Size: 0.278 MB
+  - Size: 0.269 MB
 
 - **brow_pen_holder_11holes_7mm.stl**
   - Path: `In_Progress/Cosmetic_Organizers/brow_pen_holder_11holes_7mm.stl`
@@ -180,62 +180,62 @@ Total models: 102
 - **brow_pen_holder_block_style.stl**
   - Path: `In_Progress/Cosmetic_Organizers/brow_pen_holder_block_style.stl`
   - Category: In_Progress
-  - Size: 0.35 MB
+  - Size: 0.338 MB
 
 - **compartment_tray_4x5_35x32mm.stl**
   - Path: `In_Progress/Cosmetic_Organizers/compartment_tray_4x5_35x32mm.stl`
   - Category: In_Progress
-  - Size: 0.025 MB
+  - Size: 0.024 MB
 
 - **compartment_tray_4x5_35x32mm_light_bottom_tiles.stl**
   - Path: `In_Progress/Cosmetic_Organizers/compartment_tray_4x5_35x32mm_light_bottom_tiles.stl`
   - Category: In_Progress
-  - Size: 0.064 MB
+  - Size: 0.061 MB
 
 - **compartment_tray_4x5_35x32mm_strong_light.stl**
   - Path: `In_Progress/Cosmetic_Organizers/compartment_tray_4x5_35x32mm_strong_light.stl`
   - Category: In_Progress
-  - Size: 0.209 MB
+  - Size: 0.2 MB
 
 - **compartment_tray_4x5_35x32mm_vertical_back_gussets.stl**
   - Path: `In_Progress/Cosmetic_Organizers/compartment_tray_4x5_35x32mm_vertical_back_gussets.stl`
   - Category: In_Progress
-  - Size: 0.213 MB
+  - Size: 0.205 MB
 
 - **compartment_tray_5x5_35x32mm_vertical_stable.stl**
   - Path: `In_Progress/Cosmetic_Organizers/compartment_tray_5x5_35x32mm_vertical_stable.stl`
   - Category: In_Progress
-  - Size: 0.259 MB
+  - Size: 0.249 MB
 
 - **compartment_tray_5x5_modular_sockets.stl**
   - Path: `In_Progress/Cosmetic_Organizers/compartment_tray_5x5_modular_sockets.stl`
   - Category: In_Progress
-  - Size: 0.282 MB
+  - Size: 0.271 MB
 
 - **mascara_inventory_tray_5x4.stl**
   - Path: `In_Progress/Cosmetic_Organizers/mascara_inventory_tray_5x4.stl`
   - Category: In_Progress
-  - Size: 0.018 MB
+  - Size: 0.017 MB
 
 - **mascara_inventory_tray_bottom_tiles.stl**
   - Path: `In_Progress/Cosmetic_Organizers/mascara_inventory_tray_bottom_tiles.stl`
   - Category: In_Progress
-  - Size: 0.046 MB
+  - Size: 0.044 MB
 
 - **mascara_inventory_tray_production_honeycomb.stl**
   - Path: `In_Progress/Cosmetic_Organizers/mascara_inventory_tray_production_honeycomb.stl`
   - Category: In_Progress
-  - Size: 2.162 MB
+  - Size: 2.077 MB
 
 - **mascara_inventory_tray_production_ledgebottom.stl**
   - Path: `In_Progress/Cosmetic_Organizers/mascara_inventory_tray_production_ledgebottom.stl`
   - Category: In_Progress
-  - Size: 0.185 MB
+  - Size: 0.178 MB
 
 - **mascara_inventory_tray_ultrafast.stl**
   - Path: `In_Progress/Cosmetic_Organizers/mascara_inventory_tray_ultrafast.stl`
   - Category: In_Progress
-  - Size: 0.032 MB
+  - Size: 0.031 MB
 
 - **tray5x5_front_ribs_binary.stl**
   - Path: `In_Progress/Cosmetic_Organizers/tray5x5_front_ribs_binary.stl`
