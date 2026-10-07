@@ -5,11 +5,14 @@ description: Route LongWorks Studio 3D-printing jobs through the best specialist
 
 # LongWorks 3D Production Skill
 
-Read `../../../3D_PRINTING_CONTEXT.md` and `../../../TOOLCHAIN_CATALOG.md`.
-These paths resolve from this skill directory. Read `../../../LONGWORKS_3D_SOURCE_OF_TRUTH.md`
-and `../../../docs/toolchain-setup.md` for canonical storage and the prepared local runtime.
-Run tools with the isolated LongWorks Python interpreter; do not assume the system Python
-has CAD/mesh packages. Do not install or configure paid generation providers during setup.
+Read `../../../LONGWORKS_3D_SOURCE_OF_TRUTH.md` and `../../../3D_PRINTING_CONTEXT.md` first.
+Read `../../../TOOLCHAIN_CATALOG.md` only when tool choice matters.
+Read `../../../docs/toolchain-setup.md` for the prepared local runtime.
+Run tools with the isolated LongWorks Python interpreter; do not assume system Python has CAD/mesh packages.
+Do not install or configure paid generation providers unless Chris explicitly approves it.
+
+## Project-state rule
+For an active project, use its project folder as the working context. Maintain one `PROJECT.md` (or equivalent) containing the objective, approved measurements/inputs, current keeper candidate, unresolved decisions, next action, and validation status. Update that state instead of forcing Chris to restate the project each session.
 
 ## Route the task
 - Existing tested object → search MakerWorld/Printables first when licensing/use allows
@@ -17,6 +20,10 @@ has CAD/mesh packages. Do not install or configure paid generation providers dur
 - Mechanical/functional → CadQuery or FreeCAD
 - Existing STL/OBJ/GLB → inspect, repair, modify
 - Bambu packaging only → use real validated meshes
+
+## Tool split
+Use model judgment for interpretation, design decisions, visual comparison and choosing the next step.
+Use deterministic tools/scripts for measurements, geometry checks, conversions, file handling, repeatable QA and packaging whenever possible.
 
 ## Organic-reference quality loop
 1. Lock approved reference images.
@@ -27,31 +34,19 @@ has CAD/mesh packages. Do not install or configure paid generation providers dur
 6. Compare silhouette, proportions, landmarks, negative space, and details to the reference.
 7. Repair the largest mismatch first; repeat.
 8. Only after visual match is acceptable: engineer print splits, colors, connectors and supports.
-9. Validate.
+9. Validate the actual export files.
 10. Package into Bambu Studio.
+11. Open and inspect the final Bambu project.
 
-Inspect actual images at the blockout and final checkpoints. Capture comparable front, side
-and three-quarter views where reference fidelity matters. Fix the largest geometry mismatch
-before changing cameras or materials. If a preview cannot be inspected, report visual
-validation as incomplete. This strengthens the visual QA loop reviewed in the MIT-licensed
-`CheshireJCat/create-3d-model-skill` playbook; its installation is optional to the core route.
+Inspect actual images at the blockout and final checkpoints. Capture comparable front, side and three-quarter views where reference fidelity matters. Fix the largest geometry mismatch before changing cameras or materials. If a preview cannot be inspected, report visual validation as incomplete.
 
 ## Color strategy
 AMS is available. Choose AMS, no-AMS separate parts, hybrid, single color, or paint based on the job.
 Never infer no-AMS from previous projects.
 
 ## Quality gates
-- no placeholder geometry
-- correct size and orientation
-- visual reference match where relevant
-- manifold/watertight as required
-- wall/feature thickness
-- no severe self-intersections
-- connector fit
-- build-volume compliance
-- material strategy
-- plate strategy
-- actual final 3MF verified in Bambu Studio
+Use `references/quality-gates.md`. Each gate must be PASS, WARN, FAIL, or NOT CHECKED.
+A verbal statement that something “should work” is not evidence of a PASS.
 
 ## Commercial STL rule
 Before a design is intended for sale:
